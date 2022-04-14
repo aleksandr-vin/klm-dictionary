@@ -813,6 +813,26 @@
         </deftext>
       </def>
     </ar>
+    <ar>
+      <k>rotation</k>
+      <def>
+        <deftext>
+          A set of two consecutive flights that fly to and from the same <kref>outstation</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>station</k>
+      <k>outstation</k>
+      <def>
+        <deftext>
+          An Airport, usually referred with a Code of three letters.
+          <ex type="exm">
+           <ex_orig>AMS</ex_orig>
+          </ex>
+        </deftext>
+      </def>
+    </ar>
 
     <!-- Different -->
     <ar><k>NOC</k><def><deftext>NO Connection</deftext></def></ar>
