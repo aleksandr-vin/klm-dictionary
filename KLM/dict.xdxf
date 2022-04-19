@@ -840,6 +840,27 @@
     <ar><k>PAX</k><def><deftext>Short for Passangers</deftext></def></ar>
     <ar><k>ODS</k><def><deftext>Operations Decision Support</deftext></def></ar>
     <ar><k>AMS</k><def><deftext>The IATA airport code for Schiphol airport</deftext></def></ar>
+    
+    <ar>
+      <k>TECC</k>
+      <def>
+        <deftext>
+          Technical Expertise &amp; Coaching Center.
+          <def><deftext>See <kref>TECC</kref>.</deftext></def>
+          <iref href="https://confluence.devnet.klm.com/display/TECCSE/TECC+SE">Confluence page</iref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>TECCSE</k>
+      <def>
+        <deftext>
+          Technical Expertise &amp; Coaching Center Software Engineering
+          <def><deftext>See <kref>TECCSE</kref>.</deftext></def>
+          <iref href="https://confluence.devnet.klm.com/display/TECCSE/TECC+SE">Confluence page</iref>
+        </deftext>
+      </def>
+    </ar>
 
     <!-- Samples -->
     <!-- See https://github.com/soshial/xdxf_makedict/tree/master/format_standard -->
