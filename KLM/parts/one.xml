@@ -1,0 +1,844 @@
+
+    <!-- From OCM.pdf -->
+    <ar><k id="Reason_Code_1">Reason Code</k><def><deftext>Reason Code</deftext></def></ar>
+
+    <ar><k>AAS</k><def><deftext>Amsterdam Airport Schiphol</deftext></def></ar>
+    <ar><k>ACARS</k><def><deftext>Aircraft Communication Addressing and Reporting System</deftext></def></ar>
+    <ar><k>ACSP</k><def><deftext>Air Carrier Security Program</deftext></def></ar>
+    <ar><k>AMS</k><def><deftext>Amsterdam</deftext></def></ar>
+    <ar><k>AOG</k><def><deftext>Aircraft on Ground</deftext></def></ar>
+    <ar><k>APU</k><def><deftext>Auxiliary Power Unit</deftext></def></ar>
+    <ar><k>ATC</k><def><deftext>Air Traffic Control</deftext></def></ar>
+    <ar><k>BZO</k><def><deftext>Beperkt Zicht Omstandigheden</deftext></def></ar>
+    <ar><k>CAP</k><def><deftext>Collective Apology Process</deftext></def></ar>
+    <ar><k>CB</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CONSEQ OF CABIN CREW REASONS (AVBL OR CREW DUTY TIME)</deftext></def></ar>
+    <ar><k>CC</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO COCKPIT CREW REASONS (AVAILABILITY OR CREW DUTY TIME)</deftext></def></ar>
+    <ar><k>CDM</k><def><deftext>Collaborative Decision Making</deftext></def></ar>
+    <ar><k>CI</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CONSEQUENCES OF TECHNICAL REASONS</deftext></def></ar>
+    <ar><k>CM</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO COMMERCIAL REASONS</deftext></def></ar>
+    <ar><k>CO</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CONSEQUENCES OF COMMERCIAL REASONS</deftext></def></ar>
+    <ar><k>CP</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CONSEQ OF COCKPIT CREW REASONS (AVBL OR DUTY TIME)</deftext></def></ar>
+    <ar><k>CR</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CABIN CREW REASONS (AVAILABILITY OR CREW DUTY TIME)</deftext></def></ar>
+    <ar><k>CS</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CONSEQUENCES OF EXTERNAL DAMAGE</deftext></def></ar>
+    <ar><k>CU</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CONSEQUENCES OF EXCEEDING TECHNICAL MAINTENANCE</deftext></def></ar>
+    <ar><k>CW</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CONSEQUENCES OF WEATHER AND/OR <kref>ATC</kref> PROBLEMS</deftext></def></ar>
+    <ar><k>DMC</k><def><deftext>Duty Maintenance Controller (<kref>KLC</kref>)</deftext></def></ar>
+    <ar><k>DMM</k><def><deftext>Duty Maintenance Manager</deftext></def></ar>
+    <ar><k>DTC</k><def><deftext>Daily Thorough Cleaning</deftext></def></ar>
+    <ar><k>DTM</k><def><deftext>Duty Turnaround Manager</deftext></def></ar>
+    <ar><k>DvU</k><def><deftext>Dag van Uitvoering</deftext></def></ar>
+    <ar><k>E&amp;M</k><def><deftext>Engineering &amp; Maintenance</deftext></def></ar>
+    <ar><k>EC</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CONSEQUENCES OF LATE ARRIVAL</deftext></def></ar>
+    <ar><k>EFB</k><def><deftext>Electronic Flight Bag</deftext></def></ar>
+    <ar><k>ER</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO LATE ARRIVAL</deftext></def></ar>
+    <ar><k>ERP</k><def><deftext>Emergency Response Plan</deftext></def></ar>
+    <ar><k>ES</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO EXTERNAL DAMAGE</deftext></def></ar>
+    <ar><k>FC</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: CONSEQUENTIAL CHANGE DUE TO HEALTH OR SAFETY REASONS</deftext></def></ar>
+    <ar><k>FE</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO COMMERCIAL CHANGE DUE TO SPECIAL DAYS OR EVENTS</deftext></def></ar>
+    <ar><k>GH</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO CONSEQUENCES OF GROUNDHANDLING</deftext></def></ar>
+    <ar><k>GHM</k><def><deftext>Ground Handling Manual</deftext></def></ar>
+    <ar><k>GOMS</k><def><deftext>Ground operations Manual Schiphol</deftext></def></ar>
+    <ar><k>GW</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: FLEET ADJUSTMENT AS A RESULT OF AIRCRAFT CHANGE</deftext></def></ar>
+    <ar><k>HOCS</k><def><deftext><kref>HCC</kref>-<kref>OCC</kref> Communication System</deftext></def></ar>
+    <ar><k>IBT</k><def><deftext>Integraal Bijstellings Team</deftext></def></ar>
+    <ar><k>ILS</k><def><deftext>Instrument Landing System</deftext></def></ar>
+    <ar><k>ISMM</k><def><deftext>Integrated Safety and Security Manual</deftext></def></ar>
+    <ar><k>ISSM</k><def><deftext>Integrated Safety Management Manual</deftext></def></ar>
+    <ar><k>KLC</k><def><deftext>KLM Cityhopper</deftext></def></ar>
+    <ar><k>LC</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: CONSEQUENCES SYSTEMATIC COMMERCIAL/OPERATIONAL CHANGES</deftext></def></ar>
+    <ar><k>LR</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: SYSTEMATIC COMMERCIAL/OPERATIONAL CHANGES</deftext></def></ar>
+    <ar><k>LVNL</k><def><deftext>Luchtverkeersleiding Nerderland</deftext></def></ar>
+    <ar><k>MEL</k><def><deftext>Minimum Equipment List</deftext></def></ar>
+    <ar><k>MILA</k><def><deftext>Master Interchange Lease Agreement</deftext></def></ar>
+    <ar><k>MTOW</k><def><deftext>Maximum Take Off Weight</deftext></def></ar>
+    <ar><k>NM</k><def><deftext>Nautical Mile</deftext></def></ar>
+    <ar><k>NOTAM</k><def><deftext>Notice to Airmen</deftext></def></ar>
+    <ar><k>OCM</k><def><deftext>Operations Control Manual</deftext></def></ar>
+    <ar><k>OCP</k><def><deftext>Operations Control Procedure</deftext></def></ar>
+    <ar><k>OM-A</k><def><deftext>Operations Manual part A</deftext></def></ar>
+    <ar><k>OO</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO MAINTENANCE OPTIMIZATION</deftext></def></ar>
+    <ar><k>OPR</k><def><deftext>Optimisme Passenger Recovery</deftext></def></ar>
+    <ar><k>PE</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: COMMERCIAL CHANGE DUE TO PROGNOSIS</deftext></def></ar>
+    <ar><k>QRC</k><def><deftext>Quick Reference Card</deftext></def></ar>
+    <ar><k>RVR</k><def><deftext>Runway Visual Range</deftext></def></ar>
+    <ar><k>SIS</k><def><deftext>Shift Information Sheet</deftext></def></ar>
+    <ar><k>TFM</k><def><deftext>Traffic Flow Management</deftext></def></ar>
+    <ar><k>TI</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO TECHNICAL REASONS</deftext></def></ar>
+    <ar><k>TOBT</k><def><deftext>Target off Blocks Time</deftext></def></ar>
+    <ar><k>TU</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO EXCEEDING TECHNICAL MAINTENANCE</deftext></def></ar>
+    <ar><k>VP</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO STRIKE, RUNWAY, POLITICAL, ERUPTION, HEALTH OR SAFETY</deftext></def></ar>
+    <ar><k>WE</k><def><deftext><categ><kref idref="Reason_Code_1">Reason Code</kref></categ>: DUE TO WEATHER AND/OR <kref>ATC</kref> PROBLEMS</deftext></def></ar>
+    <ar><k>WPI</k><def><deftext>Work Place Instruction</deftext></def></ar>
+    <ar><k>XXDHC</k><def><deftext>XX Dead Heading Crew</deftext></def></ar>
+    <!-- From Appron - Abbreviations and Definitions: https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions -->
+    <ar><k id="Document_1">Document</k><def><deftext>Document</deftext></def></ar>
+    <ar><k id="Load_Report_1">Load Report</k><def><deftext>Load Report</deftext></def></ar>
+    <ar><k id="Operational_Actor_1">Operational Actor</k><def><deftext>Operational Actor</deftext></def></ar>
+    <ar><k id="Flight_Status_1">Flight Status</k><def><deftext>Flight Status</deftext></def></ar>
+    <!-- Documents -->
+    <ar>
+      <k>LIR</k>
+      <def>
+        <deftext>
+          Load Instruction <categ>(<kref idref="Document_1">Document</kref>)</categ>
+          <def>
+            <deftext>
+              A form which instructs the Team Coordinator and the Baggage Handlers where to load and position baggage and cargo on the aircraft in order for
+              it to be safely within the weight and balance limits imposed for that particular aircraft type. The LIR is created by the Load Control.
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LRP</k>
+      <def>
+        <deftext>
+          Load Report <categ>(<kref idref="Document_1">Document</kref>)</categ>
+          <def>
+            <deftext>
+              The Load Report is the actual load reported by the Team Coordinator (based on the LIR).
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LDM</k>
+      <def>
+        <deftext>
+          Load Distribution Message <categ>(<kref idref="Document_1">Document</kref>)</categ>
+          <def>
+            <deftext>
+              The LDM is a document which describes the cargo load on a particular flight. The Load message LDM is sent primarily to enable the transit
+              station to know in advance the load which continues on the same aircraft.
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>CPM</k>
+      <def>
+        <deftext>
+          Container/Pallet Distribution Message <categ>(<kref idref="Document_1">Document</kref>)</categ>
+          <def>
+            <deftext>
+              The CPM is a document to describe where the ULDs are loaded for an aircraft. This will give the loaders info as to which containers are for
+              which destination and also which ULDs contain bags and which contain cargo/mails etc.
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>NOTOC</k>
+      <def>
+        <deftext>
+          Notification To Captain <categ>(<kref idref="Document_1">Document</kref>)</categ>
+          <def>
+            <deftext>
+              The main purpose of the NOTOC is to convey to the captain what dangerous goods are loaded on his aircraft and their loading positions.
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>CRM</k>
+      <def>
+        <deftext>
+          Crew Rotation Message <categ>(<kref idref="Document_1">Document</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LS</k>
+      <def>
+        <deftext>
+          Load Sheet <categ>(<kref idref="Document_1">Document</kref>)</categ>
+          <def>
+            <deftext>
+              A completed load sheet contains weight and balance data pertaining to a particular flight, including the weight of the aircraft, crew, pantry,
+              fuel, passengers, baggage, cargo and mail.
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>MVT</k>
+      <def>
+        <deftext>
+          Movement <categ>(<kref idref="Document_1">Document</kref>)</categ>
+          <def>
+            <deftext>
+              Document that is created and published after the departure of the flight. It contains informationabout the flight, departure times and any delays.
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LMC</k>
+      <def>
+        <deftext>
+          Last Minute Changes <categ>(<kref idref="Document_1">Document</kref>)</categ>
+          <def>
+            <deftext>
+              This is a document published as an addition to the Load Sheet in case there were any last minute changes to the load. The LMC document highlights
+              these changes and details the updated information from the load sheet.
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <!-- Load Reports -->
+    <ar>
+      <k>BY</k>
+      <def>
+        <deftext>
+          Economy Baggage <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>BF</k>
+      <def>
+        <deftext>
+          First Class Baggage <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>BT</k>
+      <def>
+        <deftext>
+          Transfer Baggage <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>BB</k>
+      <def>
+        <deftext>
+          Rush Baggage <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              Rush Baggage is passenger's baggage which has not accompanied passengers on their booked flight/s for one reason or another and is directed to an alternative flight in order to be restored to that / those passengers.
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>BG</k>
+      <def>
+        <deftext>
+          Gate Baggage <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              Baggage (often hand baggage or strollers) that are taken and then checked in at the gate.
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>D</k>
+      <def>
+        <deftext>
+          Crew Baggage <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>M</k>
+      <def>
+        <deftext>
+          Mail <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>C</k>
+      <def>
+        <deftext>
+          Cargo <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>BRS</k>
+      <def>
+        <deftext>
+          Baggage Reconciliation System <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>DGSL</k>
+      <def>
+        <deftext>
+          Dangerous Goods Special Load <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>AVI</k>
+      <def>
+        <deftext>
+          Alive Animal <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>T2T</k>
+      <def>
+        <deftext>
+          Tail to Tail <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              Transfer of baggage (or cargo) from one aircraft to another without an intermediate point. 
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>ULD</k>
+      <def>
+        <deftext>
+          Unit Load Device  <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              An ULD is a pallet or container used to load luggage, freight, and mail on wide-body aircraft and specific narrow-body aircraft
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>SI</k>
+      <def>
+        <deftext>
+          Supplementary Information <categ>(<kref idref="Load_Report_1">Load Report</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <!-- Operational Actors -->
+    <ar>
+      <k>TC</k>
+      <def>
+        <deftext>
+          Team Coordinator <categ>(<kref idref="Operational_Actor_1">Operational Actor</kref>)</categ>
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LC</k>
+      <def><deftext>Load Control <categ>(<kref idref="Operational_Actor_1">Operational Actor</kref>)</categ>
+        <def>
+          <deftext><iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref></deftext></def></deftext></def>
+    </ar>
+    <!-- Flight Status -->
+    <ar>
+      <k>AC</k>
+      <def>
+        <deftext>
+          Acceptance Closed <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>AF</k>
+      <def>
+        <deftext>
+          Acceptance Finalised <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>AG</k>
+      <def>
+        <deftext>
+          Acceptance at Gate <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>AI</k>
+      <def>
+        <deftext>
+          Acceptance Ignored <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>AN</k>
+      <def>
+        <deftext>
+          Acceptance Not Open <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>AO</k>
+      <def>
+        <deftext>
+          Acceptance Open <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>AS</k>
+      <def>
+        <deftext>
+          Acceptance Suspended <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>GD</k>
+      <def>
+        <deftext>
+          General Status Departed <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>GL</k>
+      <def>
+        <deftext>
+          General Status Locked <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>GO</k>
+      <def>
+        <deftext>
+          General Status Open <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>GS</k>
+      <def>
+        <deftext>
+          General Status Suspended <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>GX</k>
+      <def>
+        <deftext>
+          General Status Cancelled <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LC</k>
+      <def>
+        <deftext>
+          Load Control Closed <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LF</k>
+      <def>
+        <deftext>
+          Load Control Finalised <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LI</k>
+      <def>
+        <deftext>
+          Load Control Ignored <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LL</k>
+      <def>
+        <deftext>
+          Load Control Closed <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LO</k>
+      <def>
+        <deftext>
+          Load Control Open <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LSF</k>
+      <def>
+        <deftext>
+          Load Sheet Finalised <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>LX</k>
+      <def>
+        <deftext>
+          Load Control Cancelled <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>RF</k>
+      <def>
+        <deftext>
+          Ramp Finalised <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>RN</k>
+      <def>
+        <deftext>
+          Ramp Not Open <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>RO</k>
+      <def>
+        <deftext>
+          Ramp Open <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>RP</k>
+      <def>
+        <deftext>
+          Ramp Provisional <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>RS</k>
+      <def>
+        <deftext>
+          Ramp Suspended <categ>(<kref idref="Flight_Status_1">Flight Status</kref>)</categ>
+          <def>
+            <deftext>
+              
+              <iref href="https://confluence.devnet.klm.com/display/FSTB/Appron+-+Abbreviations+and+Definitions">Appron - Abbreviations and Definitions</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>IP&amp;C</k>
+      <k>IPC</k>
+      <k>BPIP&amp;C</k>
+      <k>BPIPC</k>
+      <def>
+        <deftext>
+          Business Platform Integral Planning &amp; Control
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/display/BPIPC/BPIPC+Home">Home page</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>PT&amp;I</k>
+      <k>PTI</k>
+      <k>BPPT&amp;I</k>
+      <k>BPPTI</k>
+      <def>
+        <deftext>
+          People Technology &amp; Intelligence
+          <def>
+            <deftext>
+              <iref href="https://confluence.devnet.klm.com/pages/viewpage.action?pageId=410552340">Home page</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>D&amp;T</k>
+      <def>
+        <deftext>
+          Data &amp; Technology
+          <def>
+            <deftext>
+              <iref href="https://afkl.sharepoint.com/sites/DataTechnologyTransf">At Sharepoint</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>rotation</k>
+      <def>
+        <deftext>
+          A set of two consecutive flights that fly to and from the same <kref>outstation</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>station</k>
+      <k>outstation</k>
+      <def>
+        <deftext>
+          An Airport, usually referred with a Code of three letters.
+          <ex type="exm">
+           <ex_orig>AMS</ex_orig>
+          </ex>
+        </deftext>
+      </def>
+    </ar>
+
+    <!-- Different -->
+    <ar><k>NOC</k><def><deftext>NO Connection</deftext></def></ar>
+    <ar><k>SPT</k><def><deftext>Standard Process Time</deftext> <iref href="https://confluence.devnet.klm.com/pages/viewpage.action?pageId=220104165">BL KPI Definitions</iref></def></ar>
+    <ar><k>PAX</k><def><deftext>Short for Passangers</deftext></def></ar>
+    <ar><k>ODS</k><def><deftext>Operations Decision Support</deftext></def></ar>
+    
+    <ar>
+      <k>TECC</k>
+      <def>
+        <deftext>
+          Technical Expertise &amp; Coaching Center.
+          <def><deftext>See <kref>TECC</kref>.</deftext></def>
+          <iref href="https://confluence.devnet.klm.com/display/TECCSE/TECC+SE">Confluence page</iref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>TECCSE</k>
+      <def>
+        <deftext>
+          Technical Expertise &amp; Coaching Center Software Engineering
+          <def><deftext>See <kref>TECCSE</kref>.</deftext></def>
+          <iref href="https://confluence.devnet.klm.com/display/TECCSE/TECC+SE">Confluence page</iref>
+        </deftext>
+      </def>
+    </ar>

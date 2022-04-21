@@ -2,7 +2,7 @@
 	<h1>KLM Dictionary</h1>
 	<h3>Version {{VERSION}}<br /><sup>{{last_edited_date_full}}</sup></h3>
     <div>
-        <a href="https://github.com/aleksandr-vin/klm-dictionary/edit/main/KLM/dict.xdxf">Edit it on Github</a>
+        <a href="https://github.com/aleksandr-vin/klm-dictionary/edit/main/KLM/parts/one.xml">Edit it on Github</a>
         or <a href="https://github.com/aleksandr-vin/klm-dictionary/issues/new/choose">report a problem</a>.
     </div>
     <div>
