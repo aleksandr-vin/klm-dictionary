@@ -1,0 +1,2715 @@
+    <ar>
+      <k>Amadeus Business Rules</k>
+      <k>ABR</k>
+      <def>
+        <deftext>
+          A specific set of conditions combined with a specific set of actions that are used during system processing. The rules are referenced at key decision points. The business rules are customized by each airline to meet their individual needs and affect how Amadeus applications run. Each business rule is composed of online updateable tables for a variety of levels.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Airborne Communications and Reporting System</k>
+      <k>ACARS</k>
+      <def>
+        <deftext>
+          A message system that enables text or data communication between a ground <kref>terminal</kref> and an aircraft.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Addition or Deletion List</k>
+      <k>Addition or Deletion Lists</k>
+      <k>ADL</k>
+      <def>
+        <deftext>
+          This message is sent from the <kref>reservation</kref> system to the departure control system (for example, Altéa Departure Control). It contains all changes made to customer data after the <kref>PNL</kref> was sent or after the last ADL message was sent. Related term <kref>PNL</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Advance Passenger Information Service</k>
+      <k>Advance Passenger Information Services</k>
+      <k>APIS</k>
+      <def>
+        <deftext>
+          An immigration system that facilitates customs clearance details for customers travelling to the countries that use the system. <ex type="exm"><ex_orig>Example: The United States of America uses APIS.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Advance Passenger Processing</k>
+      <k>APP</k>
+      <def>
+        <deftext>
+          An immigration system that gives approval to customers to travel to and enter countries that use the system. <ex type="exm"><ex_orig>Example: Australia and New Zealand use APP.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>APIS Quick Query</k>
+      <k>AQQ</k>
+      <def>
+        <deftext>
+          An immigration system that facilitates customs clearance details for customers travelling to the countries that use the system. Related term <kref>APIS</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Security Management</k>
+      <k>ASM</k>
+      <def>
+        <deftext>
+          The system that controls the logon and access rights for Altéa Departure Control Customer Management (<kref>CM</kref>), Altéa Inventory (<kref>INV</kref>) and other Amadeus applications. Previously known as Logon and Security Server (LSS). This term is used in: • Altéa Departure Control Customer Management (<kref>CM</kref>). • Altéa Inventory (<kref>INV</kref>). • Amadeus <kref>Passenger</kref> Recovery.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Advance Seat Request</k>
+      <k>Advance Seat Requests</k>
+      <k>ASR</k>
+      <def>
+        <deftext>
+          The capability to assign seats in advance. Related term <kref>assigned seat</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Actual Time of Arrival</k>
+      <k>ATA</k>
+      <def>
+        <deftext>
+          The time that a <kref>flight</kref> actually arrived at its destination. Related term <kref>ETA</kref> Related term <kref>STA</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Automated Ticket and Boarding pass</k>
+      <k>ATB</k>
+      <def>
+        <deftext>
+          
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Actual Time of Departure</k>
+      <k>ATD</k>
+      <def>
+        <deftext>
+          The time that a <kref>flight</kref> actually departed. Related term <kref>ETD</kref> Related term <kref>STD</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Authority to Load</k>
+      <k>Authority to Loads</k>
+      <k>ATL</k>
+      <def>
+        <deftext>
+          The loading status of a bag. Possible values are either Yes or No, depending on the scenario. Scenarios: • When a customer is accepted to standby, the ATL status of their <kref>baggage</kref> is No. Only if the customer is subsequently onloaded to the <kref>flight</kref> will the ATL status change to Yes. • When a customer checks in online and indicates they want to also check-in a bag, a bag-tag number is allocated to the bag, and the ATL status is set to No. A bag record exists for the flight, but the bag cannot yet be loaded onto the aircraft. • When an agent accepts a customer's <kref>baggage</kref> at the bag-drop area, the ATL status changes to Yes, authorizing <kref>baggage</kref> handlers to accept and load the bag into the aircraft hold. ATL is the first stage of accepting a bag on a <kref>flight</kref>. The second stage is <kref>ATT</kref>. Related term <kref>ATT</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Authority to Transport</k>
+      <k>ATT</k>
+      <def>
+        <deftext>
+          The transportation status of a bag. Possible values are either Yes or No, depending on the scenario. A bag can only be authorized to be transported after the customer has boarded the aircraft. The default ATT status is No. Scenarios: • When a customer boards the flight, the ATT status changes to Yes, meaning that the bag can also travel on the <kref>flight</kref>. • When a customer with <kref>baggage</kref> who was previously accepted fails to board the aircraft, the <kref>ATL</kref> status remains at No. The <kref>baggage</kref> for the <kref>flight</kref> cannot be finalized until the bag is removed from the aircraft hold. ATT is the second stage of accepting a bag on a <kref>flight</kref>. The first stage is <kref>ATL</kref>. Related term <kref>ATL</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Ad hoc Schedules Message</k>
+      <k>Ad hoc Schedules Messages</k>
+      <k>ASM</k>
+      <def>
+        <deftext>
+          An <kref>interline</kref> teletype message for the transmission of a deviation from the basic schedule, such as a change of aircraft configuration. ASMs include the following sub-messages: • CNL: Cancellation. • CON: Change of aircraft configuration or version. • EQT: Change of equipment information. • RPL: Replacement of existing <kref>flight</kref> information. • TIM: Change of time information. Related term <kref>SSIM</kref> This term is used in: • Altéa Departure Control Customer Management (<kref>CM</kref>). • Altéa Inventory (<kref>INV</kref>). • Amadeus <kref>Passenger</kref> Recovery.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Advise time of departure</k>
+      <k>ADV</k>
+      <def>
+        <deftext>
+          The time at which the airline will advise the new <kref>ETA</kref> of a <kref>flight</kref> when the delay of an unknown length is encountered.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Aircraft Configuration Version</k>
+      <k>Aircraft Configuration Versions</k>
+      <k>ACV</k>
+      <def>
+        <deftext>
+          Identifies the physical seat layout of a version of an <kref>aircraft type</kref> (through the associated <kref>seat map</kref>). A given <kref>aircraft type</kref> can have several ACVs. Related term <kref>aircraft type</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Airline Terminal Identification</k>
+      <k>ATID</k>
+      <def>
+        <deftext>
+          
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Altéa Administration</k>
+      <def>
+        <deftext>
+          The Amadeus application for administrators to manage components such as Security, Messenger, Devices, Printing, Teletype, Business rules, Database, Departure plan and <kref>Codeshare</kref> portal.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Altéa Departure Control Customer Management</k>
+      <k>CM</k>
+      <def>
+        <deftext>
+          The Amadeus application that controls the <kref>acceptance</kref> and boarding of customers on <kref>flight</kref>s. The software is business rule-driven, customer ranking-driven, and synchronized with the <kref>SBR</kref>. It is one of the two stand-alone applications that comprises <kref>Amadeus Altéa Departure Control</kref>. The other application is Altéa Departure Control Flight Management (<kref>FM</kref>). Also known as CM. Related term <kref>Amadeus Altéa Departure Control Flight Management</kref> (<kref>FM</kref>)
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Altéa Departure Control Operational Flight Updates</k>
+      <k>OFDM</k>
+      <k>OFU</k>
+      <def>
+        <deftext>
+          The Amadeus application available to ground-handling companies (or airlines using Altéa <kref>DC</kref>) to perform ground-handling tasks. Previously known as Operational Flight Data Management (OFDM).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Altéa Inventory</k>
+      <k>ALTEA INV</k>
+      <k>INV</k>
+      <def>
+        <deftext>
+          The Amadeus application that enables an airline to manage the distribution of its flights, the selling of space, and the delivery of related services, such as <kref>seating</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Altéa Reservation</k>
+      <k>Amadeus Altéa Reservations</k>
+      <k>ALTEA RES</k>
+      <k>RES</k>
+      <def>
+        <deftext>
+          The Amadeus application giving airlines access to <kref>reservation</kref> functions such as availability, schedules, PNRs, <kref>fare</kref> quote, ticketing, and so on.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Champions</k>
+      <def>
+        <deftext>
+          Items which are voted as most interesting will be developed by Amadeus and the champion airlines will assist in creating and prioritizing the requirements, testing the final product and reviewing the documentation for the other airlines.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Community</k>
+      <def>
+        <deftext>
+          All airlines using a specific Amadeus product are united in an Amadeus Community. Airlines can suggest system changes to be paid by the airline community. The community will vote on the most interesting items in the list.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Reporting &amp; Monitoring</k>
+      <def>
+        <deftext>
+          The Amadeus application (currently under development) that enables an airline to closely monitor the rebooking progress of disrupted <kref>flight</kref>s (monitoring) and generate reports for data analysis of disrupted/rebooked <kref>flight</kref>s (reporting).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Automatic Flight Selection</k>
+      <k>AFS</k>
+      <def>
+        <deftext>
+          A process that uses certain rules to identify the best alternative for <kref>flight</kref>s undergoing <kref>re-accommodation</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Boarding Gate Reader</k>
+      <k>Boarding Gate Readers</k>
+      <k>BGR</k>
+      <def>
+        <deftext>
+          A device at airport boarding <kref>gate</kref>s used to read the <kref>boarding pass</kref> magnetic strips.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Baggage Processed Message</k>
+      <k>Baggage Processed Messages</k>
+      <k>BPM</k>
+      <def>
+        <deftext>
+          The BPM contains data regarding the status of <kref>baggage</kref> for tracking and reconciliation. This information can be used by the transporting <kref>carrier</kref> or its handling agent to track the ground transportation, <kref>baggage</kref> sortation, and loading process, including unloading, if required.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Baggage Source Message</k>
+      <k>Baggage Source Messages</k>
+      <k>BSM</k>
+      <def>
+        <deftext>
+          A BSM is created every time a <kref>bag tag</kref> is processed or <kref>baggage</kref> details are amended in Altéa Departure Control when the bag is accepted. Related term <kref>BTM</kref> Related term <kref>BUM</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Baggage Transfer Message</k>
+      <k>Baggage Transfer Messages</k>
+      <k>BTM</k>
+      <def>
+        <deftext>
+          The BTM provides a receiving airline at a <kref>transfer</kref> <kref>station</kref> with details of all <kref>transfer</kref> baggage, on an incoming flight, that has not been passed as part of a through <kref>acceptance</kref> transaction and that is to be transferred to the receiving airline's services by the delivering airline. A BTM is sent by the delivering (transporting) airline to the receiving airlines. Related term <kref>BSM</kref> Related term <kref>BUM</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Baggage Reconciliation System</k>
+      <k>BRS</k>
+      <def>
+        <deftext>
+          A system accessed from a desktop application and a scanner that tracks departure and arrival <kref>baggage</kref> as it is loaded into or unloaded from an aircraft. A BRS records and displays <kref>baggage</kref> data and matches this data to <kref>flight</kref> and passenger data in the check-in and load control systems.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Baggage Unload Message</k>
+      <k>Baggage Unload Messages</k>
+      <k>BUM</k>
+      <def>
+        <deftext>
+          A BUM is created when a customer is offloaded for any reason. Related term <kref>BSM</kref> Related term <kref>BTM</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Boarding</k>
+      <k>Boardings</k>
+      <def>
+        <deftext>
+          The process of moving customers onto the aircraft. Also known as embarkation
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Customer Data Transfer</k>
+      <k>Customer Data Transfers</k>
+      <k>CDT</k>
+      <def>
+        <deftext>
+          When a customer is disrupted on a flight, the process of transferring acceptance, baggage, and <kref>e-ticket</kref> information from the FROM <kref>flight</kref> to the TO <kref>flight</kref>. This process is performed in Altéa Departure Control Customer Management (<kref>CM</kref>). Related term <kref>Disruption Transfer</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>CM User Interface</k>
+      <def>
+        <deftext>
+          The graphical user interface (GUI) of Altéa Departure Control Customer Management (<kref>CM</kref>). Previously known as Java Front End (JFE). Related term <kref>Amadeus Altéa Departure Control Customer Management</kref> (<kref>CM</kref>)
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Change Of Gauge</k>
+      <k>COG</k>
+      <def>
+        <deftext>
+          The scheduled change of aircraft type, occurring one or more times during a multi-leg flight, but identified by one airline designator and one <kref>flight number</kref> between the origin and destination. Therefore, the <kref>cabin</kref> distribution is not identical on all of the <kref>leg</kref>s.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Customer Operational Protection</k>
+      <k>COP</k>
+      <def>
+        <deftext>
+          This term was the previous name for <kref>Disruption Transfer</kref> and is no longer widely used. Related term <kref>Disruption Transfer</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>backup transfer</k>
+      <k>backup transfers</k>
+      <k>CTP</k>
+      <def>
+        <deftext>
+          
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Capacity</k>
+      <def>
+        <deftext>
+          The number of available seats for sale in a specific <kref>cabin</kref> or for a specific <kref>booking</kref> <kref>class</kref>. This number is derived from the airline's <kref>inventory</kref> system.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Catering</k>
+      <def>
+        <deftext>
+          The food and beverages loaded onboard an aircraft for customer consumption.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Codeshare</k>
+      <def>
+        <deftext>
+          An agreement between two or more airlines to deliver seats on the same aircraft using their own <kref>flight</kref> designator. One airline operates the service and both (or several) <kref>market</kref> it under their respective codes. Amadeus distinguishes two different types of codeshare agreements: • Commercial duplication, either <kref>free flow</kref> or block space, where each of several airlines sells seats from the same aircraft under its own <kref>flight number</kref>. • Wet lease or franchise, where an airline hires the aircraft and the crew from another airline, and <kref>market</kref>s the <kref>flight</kref> under its own <kref>airline code</kref>. Related term <kref>block space</kref> Related term <kref>free flow</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Comment</k>
+      <def>
+        <deftext>
+          A customer-specific message or text that can be associated to and triggered by certain events, such as acceptance, boarding, reprinting of boarding passes, and so forth. Comments have a priority attached to them. All high-priority comments inhibit the completion of the process that triggered it. This forces the agent to deliver or delete the message before they can continue. Related term CEM
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Computerized Reservation System</k>
+      <k>CRS</k>
+      <def>
+        <deftext>
+          See <kref>GDS</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Customer Product Record</k>
+      <k>Customer Product Records</k>
+      <k>CPR</k>
+      <def>
+        <deftext>
+          The primary record for Altéa Departure Control Customer Management that contains all the information for a customer. It is created from the <kref>SBR</kref> and is updated when the <kref>SBR</kref> is updated. In addition, most amendments to the CPR also update the <kref>SBR</kref>. Related term <kref>SBR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Customer Transfer Process</k>
+      <k>force transfer</k>
+      <k>force transfers</k>
+      <k>CTP</k>
+      <def>
+        <deftext>
+          A type of <kref>re-accommodation</kref> triggered from Altéa Departure Control. This is primarily done when a scheduled <kref>flight</kref> is cancelled, delayed, or otherwise disrupted. • When an airline also uses Disruption Transfer, CTP is known as backup <kref>transfer</kref>. • When an airline does not use Disruption Transfer, CTP is known as force <kref>transfer</kref>. Related term <kref>Disruption Transfer</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Denied Boarding Compensation</k>
+      <k>DBC</k>
+      <def>
+        <deftext>
+          The compensation issued to a customer for being <kref>denied boarding</kref> on a <kref>flight</kref> on which they had a <kref>reservation</kref>. DBC can be in the form of a monetary amount, hotel and meal vouchers, or a voucher for future travel.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Altéa Departure Control</k>
+      <k>DC</k>
+      <def>
+        <deftext>
+          The Amadeus computer system that includes: • Altéa Departure Control Flight Management (<kref>FM</kref>), which manages components such as load control and weight and balance. • Altéa Departure Control Customer Management (<kref>CM</kref>), which comprises all customer-related activities, such as <kref>acceptance</kref> and boarding.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Departure Control System</k>
+      <k>DCS</k>
+      <def>
+        <deftext>
+          A system that is used to control all aspects of departure control, performing check-in, capacity, load control, and dispatch of <kref>flight</kref>s. Related term <kref>Amadeus Altéa Departure Control</kref> (<kref>DC</kref>)
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Date of Birth</k>
+      <k>DOB</k>
+      <def>
+        <deftext>
+          
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Disruption Transfer</k>
+      <k>Disruption Transfers</k>
+      <k>COP</k>
+      <k>DT</k>
+      <def>
+        <deftext>
+          The <kref>transfer</kref> of customers, when a <kref>flight</kref> <kref>disruption</kref> occurs, from a DCS-hosted <kref>flight</kref> (and any corresponding <kref>outbound</kref> <kref>flight</kref>s) to any <kref>flight</kref> bookable in Amadeus. The main features of Disruption Transfer are: • Ability to <kref>transfer</kref> (rebook) customers to alternative <kref>flight</kref>s. • Performs automatic <kref>e-ticket</kref> revalidation or reissue according to <kref>IATA</kref> resolution 735d, for example, a change of routing or <kref>carrier</kref>. Previously known as <kref>Customer Operational Protection</kref> (COP). Related term <kref>CTP</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Date of Joining</k>
+      <k>DOJ</k>
+      <def>
+        <deftext>
+          The date the <kref>staff</kref> member joined the airline.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Diversion</k>
+      <k>DIV</k>
+      <def>
+        <deftext>
+          Industry-standard aircraft movement and aircraft diversion message. A <kref>FLIX</kref> message sent by the departure control system to publish the latest known operational <kref>flight</kref> information, such as estimated or actual departure or arrival times. Related term <kref>MVT</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Electronic Data Interchange For Administration, Commerce, and Transport</k>
+      <k>EDIFACT</k>
+      <def>
+        <deftext>
+          A communication protocol used for exchanging structured messages between Amadeus applications and airlines.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Estimated Time of Arrival</k>
+      <k>ETA</k>
+      <def>
+        <deftext>
+          The time that a <kref>flight</kref> is estimated to arrive at its destination. Related term <kref>ATA</kref> Related term <kref>STA</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Expected to Board</k>
+      <k>ETB</k>
+      <def>
+        <deftext>
+          This term has more than one definition. Definition Usage A figure stored in Altéa Inventory (<kref>INV</kref>) that shows how many customers are expected to board a flight, based on statistics. It is used to calculate the stress factor of a <kref>flight</kref>. Related term stress factor This term is used in: • Altéa Departure Control Customer Management (<kref>CM</kref>). The number of booked customers with a <kref>go show</kref> or <kref>NOSHOW</kref> factor applied. Related term <kref>go show</kref> Related term This term is used in: • Altéa Departure Control Flight Management (<kref>FM</kref>). A counter stored at leg-cabin level that represents how many customers are expected to show up at departure time. It is based on expected final bookings, taking into account cancellations and no show customers. Note: Staff <kref>standby</kref> <kref>booking</kref>s are not included in this number. Related term <kref>NOSHOW</kref> This term is used in: • Altéa Inventory (<kref>INV</kref>).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Electronic Visa Update System</k>
+      <k>EVUS</k>
+      <def>
+        <deftext>
+          An automated system that determines the eligibility of citizens from specific countries to travel to the United States for temporary business on a 10-year U.S. visitor visa, <kref>class</kref> B1, B2, or B1/B2. Travelers who fit this description must enroll with EVUS prior to travel to the United States of America.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Electronic Miscellaneous Document</k>
+      <k>EMD</k>
+      <def>
+        <deftext>
+          The industry-standard electronic version of the <kref>Miscellaneous Charges Order</kref> (<kref>MCO</kref>). It facilitates the sale of travel-related services such as accommodation, ground transportation, and special services. There are different types of EMD: • Associated (EMD-A): The EMD is directly linked to an individual <kref>flight coupon</kref>. The statuses of both coupons are synchronized. It can be automatically or manually associated and disassociated from an <kref>e-ticket</kref>. For example, meals, <kref>excess baggage</kref>. • Standalone (EMD-S). The EMD fully replaces the automated (virtual) <kref>MCO</kref>. It is not necessarily linked to a ticket, for example, vouchers. Related term <kref>MCO</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Estimated Time of Departure</k>
+      <k>ETD</k>
+      <def>
+        <deftext>
+          A revised departure time. Related term <kref>ATD</kref> Related term <kref>STD</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Extra Seat for Personal Comfort</k>
+      <k>EXST</k>
+      <def>
+        <deftext>
+          A seat where the customer has paid a fee to reserve an additional seat beside their own seat for personal comfort. The seat is not occupied by any customer.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Flight Interruption Manifest</k>
+      <k>Flight Interruption Manifests</k>
+      <k>FIM</k>
+      <def>
+        <deftext>
+          A paper document that is issued when a customer or group of customers are provided carriage on another <kref>flight</kref> on an airline that is different from the original airline, due to a <kref>flight</kref> <kref>disruption</kref>. The FIM is accepted as the new <kref>ticket</kref>. Note: From mid-2016, FIMs were no longer issued and were replaced by electronic reticketing. Related term <kref>e-ticket</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>FLIX</k>
+      <def>
+        <deftext>
+          A message indicating a <kref>flight</kref> is disrupted or cancelled. This also updates the <kref>FLIFO</kref> information in Altéa Reservation. There are different subtypes of FLIX messages: • FLIX FD: Flight disrupted. The FLIX FD is applied on an airport of the routing. An <kref>ETD</kref> and/or an <kref>ETA</kref> can be set via the FLIX FD. This FLIX does not trigger any action within Altéa DC; it is only informative. • FLIX FX: Flight cancelled. The FLIX FX applies to the whole <kref>flight</kref> date. When a FLIX FX is set on a <kref>flight</kref> date, the <kref>flight</kref> status is set to Suspended in Altéa DC, sales are suspended, but customers are not re-accommodated on other <kref>flight</kref>s. • FLIX GX: Leg cancelled. The FLIX GX applies to the <kref>leg</kref> date. When a FLIX GX is set on a <kref>leg</kref> date, the <kref>flight</kref> status is set to Suspended in Altéa DC, sales are suspended, but customers are not re-accommodated on other <kref>flight</kref>s. • FLIX LX: Landing cancelled. The FLIX LX is applied on an airport of the routing. When a FLIX LX is set on a <kref>leg</kref> date, the <kref>leg</kref> status is set to Suspended in Altéa DC, sales are suspended, but customers are not re-accommodated on other <kref>flight</kref>s.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Altéa Departure Control Flight Management</k>
+      <k>FM</k>
+      <def>
+        <deftext>
+          The Amadeus application allows airlines to perform weight and balance activities on <kref>flight</kref>s so that aircraft are able to fly safely. It is one of the two stand-alone applications that comprises <kref>Amadeus Altéa Departure Control</kref>. The other application is Altéa Departure Control Flight Management (FM). Also known as FM. Related term <kref>Amadeus Altéa Departure Control Customer Management</kref> (<kref>CM</kref>)
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Form of identification</k>
+      <k>FOID</k>
+      <def>
+        <deftext>
+          
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Flight Information</k>
+      <k>FLIFO</k>
+      <def>
+        <deftext>
+          A flight's arrival and departure times as well as the status of the <kref>flight</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Frequent traveler</k>
+      <k>Frequent travelers</k>
+      <k>FQTV</k>
+      <def>
+        <deftext>
+          The information that identifies a customer as a member of an airline's or alliance's loyalty program. Also known as frequent flyer (FQTV)
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Ground Provided Services</k>
+      <k>GPS</k>
+      <def>
+        <deftext>
+          A web-application used to manage the issuance of service recovery vouchers for a disrupted <kref>flight</kref> or customer. The application is developed by Air France.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>ground transportation</k>
+      <k>GTP</k>
+      <def>
+        <deftext>
+          The transportation usually operated by bus or train, that is either in addition to, or a replacement for, an existing <kref>flight</kref>. For example, consider a <kref>flight</kref> LHR-PEK. If the <kref>flight</kref> is cancelled, an alternative might be adding a ground transportation <kref>segment</kref> between LHR (London Heathrow) and LGW (London Gatwick), and then a <kref>flight</kref> LGW-PEK. It is also used when customers stay overnight in a hotel because of a delayed or cancelled <kref>flight</kref>. The airline issues vouchers to get the customer to and from the hotel.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Global Distribution System</k>
+      <k>GDS</k>
+      <def>
+        <deftext>
+          A system that offers services from different providers: airlines, car, rail, or cruise companies. Also known as <kref>Computerized Reservation System</kref> (<kref>CRS</kref>).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Greenwich Mean Time</k>
+      <k>GMT</k>
+      <def>
+        <deftext>
+          See <kref>UTC</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Hotel Administratie &amp; Registratie Tool</k>
+      <k>HART</k>
+      <def>
+        <deftext>
+          Former hotel administration tool used by SPL/P2 to check the issued hotel vouchers against the bills received from the hotels. Currently replaced by <kref>SAP</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Head of Pool</k>
+      <k>Head of Pools</k>
+      <k>HOP</k>
+      <def>
+        <deftext>
+          The customer with whom a <kref>baggage pool</kref> is associated. Related term <kref>baggage pool</kref> Related term <kref>MOP</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>International Air Transport Association</k>
+      <k>IATA</k>
+      <def>
+        <deftext>
+          A global trade association representing many of the world's airlines. It is responsible for assigning <kref>airline code</kref>s and authorizes agreements between airlines and travel agents.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Inter-Airline Through Check-in</k>
+      <k>IATCI</k>
+      <def>
+        <deftext>
+          A subset of <kref>EDIFACT</kref> that deals specifically with the airline check-in of customers. Related term <kref>EDIFACT</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Interline Fallback Message</k>
+      <k>Interline Fallback Messages</k>
+      <k>IFM</k>
+      <def>
+        <deftext>
+          The message sent manually to another airline when through check-in of a customer fails.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Interline agreement</k>
+      <k>Interline agreements</k>
+      <def>
+        <deftext>
+          An agreement covering the transportation of customers and <kref>baggage</kref> over the service of two or more airlines, but with one <kref>ticket</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>International Civil Aviation Organization</k>
+      <k>ICAO</k>
+      <def>
+        <deftext>
+          An agency of the United Nations that codifies the principles and techniques of international air navigation and fosters the planning and development of international air transport to ensure safe and orderly growth. The ICAO has its own airport and <kref>airline code</kref> systems with 4-letter <kref>airport code</kref>s and 3-letter <kref>airline code</kref>s.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Itinerary Receipt</k>
+      <k>ITR</k>
+      <def>
+        <deftext>
+          A receipt issued to the customer instead of a paper <kref>ticket</kref>. The ITR includes a <kref>booking</kref> code or record locator that is presented during <kref>acceptance</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Live Event Assistant</k>
+      <k>LEA</k>
+      <def>
+        <deftext>
+          A web application to monitor the progress of rebooking disrupted <kref>flight</kref>s. It also contains a lot of information regarding the customers (new) <kref>itinerary</kref> and the issued service recovery vouchers. Customers can also communicate with an agent via LEA BOT (AF only). The application is developed by Air France.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Line Number Interchange Address Terminal Address</k>
+      <k>LNIATA</k>
+      <def>
+        <deftext>
+          A combination of numbers and letters that make up every terminal's specific ID. The ID is referred to as an <kref>ATID</kref>. Related term <kref>ATID</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Minimum Connecting Time</k>
+      <k>MCT</k>
+      <def>
+        <deftext>
+          The minimum time required to <kref>transfer</kref> customers and their <kref>baggage</kref> between <kref>flight</kref>s at any one airport. This time is determined by each airline and can be controlled at various levels, such as airline, airport, terminal, and other criteria.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Member of Pool</k>
+      <k>Member of Pools</k>
+      <k>MOP</k>
+      <def>
+        <deftext>
+          The customer is part of the <kref>baggage</kref> pool, but is not responsible for the <kref>baggage</kref> and is not the <kref>Head of Pool</kref> (<kref>HOP</kref>). Related term <kref>baggage pool</kref> Related term <kref>HOP</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Magnetic Strip Reader</k>
+      <k>Magnetic Strip Readers</k>
+      <k>MSR</k>
+      <def>
+        <deftext>
+          A device used during the <kref>flight</kref> boarding process that reads the magnetic strip on the customer's <kref>boarding pass</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Machine Readable Zone</k>
+      <k>MRZ</k>
+      <def>
+        <deftext>
+          Bottom part of the information page of a passport
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Magnetic Stripe Reader</k>
+      <k>Magnetic Stripe Readers</k>
+      <k>MSR</k>
+      <def>
+        <deftext>
+          
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Miscellaneous Charges Order</k>
+      <k>MCO</k>
+      <def>
+        <deftext>
+          A paper document issued by an agent or airline as proof of payment for accommodation, ground transportation, special services, or as a credit towards future air transportation. Related term <kref>EMD</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Most Significant Carrier</k>
+      <k>Most Significant Carriers</k>
+      <k>MSC</k>
+      <def>
+        <deftext>
+          The <kref>carrier</kref> flying the most significant and/or longest <kref>leg</kref> of the <kref>journey</kref>. For customer <kref>journey</kref>s that involve more than one carrier, <kref>IATA</kref> Resolution 302 governs <kref>baggage allowance</kref>s and charges, using a concept of the Most Significant Carrier (MSC) to determine whose <kref>baggage</kref> rules apply for the <kref>itinerary</kref>. <ex type="exm"><ex_orig>Example: The customer <kref>journey</kref> is MUC-LHR-JFK.</ex_orig></ex> • Carrier 1 operates MUC-LHR <kref>leg</kref> (587 miles). • Carrier 2 operates LHR-JFK <kref>leg</kref> (3,451 miles). Carrier 2 is the MSC because it flies the longest <kref>leg</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Movement</k>
+      <k>MVT</k>
+      <def>
+        <deftext>
+          Industry-standard aircraft movement and aircraft diversion message.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>No Record</k>
+      <k>No Records</k>
+      <k>NOREC</k>
+      <def>
+        <deftext>
+          A customer present at check-in (customer <kref>acceptance</kref>) with an apparently valid paper <kref>ticket</kref> or <kref>e-ticket</kref> that is not traceable in the computer systems. Related term <kref>go show</kref> Related term <kref>NOSHOW</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>NOSHOW</k>
+      <def>
+        <deftext>
+          A customer with a confirmed <kref>reservation</kref> for a specific <kref>flight</kref> who either didn't check-in (customer <kref>acceptance</kref>) or checked-in but failed to board the <kref>flight</kref>. Related term <kref>go show</kref> Related term <kref>NOREC</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Passenger Recovery</k>
+      <k>OPR</k>
+      <def>
+        <deftext>
+          The Amadeus application that enables an airline to manage the rebooking of disrupted <kref>flight</kref>s within 14days before departure.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Other Service Information</k>
+      <k>OSI</k>
+      <def>
+        <deftext>
+          An OSI element contains special information regarding a customer in the <kref>PNR</kref>. It is sent to the airlines that appear in the <kref>itinerary</kref>. An OSI element does not require confirmation from the airline.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Offload</k>
+      <def>
+        <deftext>
+          The event when a customer is removed from a <kref>flight</kref> after <kref>acceptance</kref> or boarding. Offload figures include volunteer offloads. Related term onload
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Onboard Service List</k>
+      <k>Onboard Service Lists</k>
+      <k>OSL</k>
+      <def>
+        <deftext>
+          A list that is given or sent to the operating crew for in-flight customer service purposes.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Onload</k>
+      <def>
+        <deftext>
+          The process of accepting customers and <kref>baggage</kref> currently on <kref>standby</kref> (<kref>waitlist</kref>) for a <kref>flight</kref>. The onload process can also include the regrading of customers into other <kref>cabin</kref>s. Related term offload
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Amadeus Altéa Process Customer Value</k>
+      <k>PCV</k>
+      <def>
+        <deftext>
+          The Amadeus application, hosted on the Airline Retailing Platform, that ranks, qualifies, and categorizes customers for a given process, according to certain criteria.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Process Customer Value</k>
+      <k>PCV</k>
+      <def>
+        <deftext>
+          The value assigned to a customer that reflects their commercial importance to the airline. Example processes: Acceptance, seating, re-accommodation, and <kref>regrade</kref>. Each airline uses the <kref>Amadeus Altéa Process Customer Value</kref> (PCV) application to determine the value for each customer, based on a combination of different criteria relating to that customer. Some criterion includes: • Booking <kref>class</kref> and <kref>fare type</kref>. • Commercial or <kref>staff</kref> customer. • <kref>FQTV</kref> tier. • Frequency of travel. Also known as customer ranking value and customer value. Related term <kref>Amadeus Altéa Process Customer Value</kref> (PCV)
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Passenger Name List</k>
+      <k>Passenger Name Lists</k>
+      <k>PNL</k>
+      <def>
+        <deftext>
+          A list of customer data for a specific <kref>flight</kref> sent by one airline's <kref>reservation</kref> system to another airline's departure control system for the purpose of customer <kref>acceptance</kref>. It is sent only once to the departure control system. Changes that occur after the PNL is sent are included in <kref>ADL</kref> messages. PNLs are sent by the <kref>operating airline</kref> and each <kref>marketing airline</kref>. Related term <kref>ADL</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Passenger Name Record</k>
+      <k>Passenger Name Records</k>
+      <k>PNR</k>
+      <def>
+        <deftext>
+          A record that contains all the data relating to a particular customer's travel <kref>reservation</kref>. It contains not only basic customer data such as name, address, telephone and special needs, but also flight, hotel, and car <kref>reservation</kref>s. Related term <kref>PNR element</kref> Related term <kref>SBR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>PNR element</k>
+      <k>PNR elements</k>
+      <def>
+        <deftext>
+          Any one of the component parts of a PNR, such as an <kref>itinerary</kref> segment, a name element, or a special service request. Each element is numbered sequentially within the <kref>PNR</kref>. Related term <kref>PNR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Passenger Reconciliation List</k>
+      <k>Passenger Reconciliation Lists</k>
+      <k>PRL</k>
+      <def>
+        <deftext>
+          The list includes details of customers boarded, no shows, and <kref>go show</kref>s for whom data exists in Altéa Departure Control.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Passenger Service Message</k>
+      <k>Passenger Service Messages</k>
+      <k>PSM</k>
+      <def>
+        <deftext>
+          A standard <kref>IATA</kref> message sent when special services are required. <ex type="exm"><ex_orig>Examples: Customers needing a wheelchair, elderly customers requiring assistance, or children travelling alone.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Passport</k>
+      <k>PSPT</k>
+      <def>
+        <deftext>
+          
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Passenger</k>
+      <k>Passengers</k>
+      <k>PAX</k>
+      <def>
+        <deftext>
+          Abbreviation for passenger or customer.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Passenger Transfer Manifest</k>
+      <k>Passenger Transfer Manifests</k>
+      <k>PTM</k>
+      <def>
+        <deftext>
+          A list that displays arrival information on all onward connecting customers. The information includes <kref>baggage</kref> details and final destinations.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Queue</k>
+      <def>
+        <deftext>
+          A computer waiting line where <kref>PNR</kref>s or messages are placed when they require action. Also refers to the queue on a printer that shows the agent that there are customer documents, such as boarding passes or bag tags, waiting to be printed. Related term <kref>PNR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>SAP</k>
+      <def>
+        <deftext>
+          
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Structured Booking Record</k>
+      <k>Structured Booking Records</k>
+      <k>SBR</k>
+      <def>
+        <deftext>
+          This is the internal system version of the <kref>Passenger Name Record</kref> (<kref>PNR</kref>) that accounts for all <kref>reservation</kref> data, as well as delivery details such as check-in (customer <kref>acceptance</kref>), baggage, and boarding. There are three sources of an SBR: • Prime SBR. • Marketing SBR. • Operating SBR. Related term <kref>CPR</kref> Related term <kref>PNR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Société Internationale des Télécommunications Aéronautiques</k>
+      <k>SITA</k>
+      <def>
+        <deftext>
+          A telecommunications network used by the major airlines to transmit customer reservations, cancellations, changes, and other teletype messages.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Special Keyword</k>
+      <k>Special Keywords</k>
+      <k>SK</k>
+      <def>
+        <deftext>
+          The code given to the keyword element in a <kref>PNR</kref>. It contains special information about a <kref>booking</kref> or a passenger that airlines use for service or marketing purposes. An SK element can also be generated as part of an automatic <kref>PNR</kref> update.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Special Service Request</k>
+      <k>Special Service Requests</k>
+      <k>SSR</k>
+      <def>
+        <deftext>
+          A request from a customer for additional service, such as a wheelchair, special meal, assistance in boarding or transferring, or attention for an unaccompanied minor. It generates an SSR element in the <kref>PNR</kref> and a message is sent to the targeted airline. Related term <kref>PNR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Scheduled Time of Arrival</k>
+      <k>STA</k>
+      <def>
+        <deftext>
+          The published arrival time. Related term <kref>ATA</kref> Related term <kref>ETA</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Scheduled Time of Departure</k>
+      <k>STD</k>
+      <def>
+        <deftext>
+          The published departure time. Related term <kref>ATD</kref> Related term <kref>ETD</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Seats Occupied Message</k>
+      <k>Seats Occupied Messages</k>
+      <k>SOM</k>
+      <def>
+        <deftext>
+          A message transmitted after departure on multi-sector <kref>flight</kref>s to advise the next <kref>station</kref> (unless the last sector) of occupied seats by destination through that station, as well as any protected seats for downline <kref>station</kref>s.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Standard Schedule Information Message</k>
+      <k>Standard Schedule Information Messages</k>
+      <k>SSIM</k>
+      <def>
+        <deftext>
+          The industry-approved schedule messages that are used to describe the base schedule of an airline. SSIMs use a Type B or <kref>Teletype</kref> format. Related term <kref>ASM</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Teletype</k>
+      <k>TTY</k>
+      <def>
+        <deftext>
+          Telex or asynchronous teletype communications. Related term <kref>TTY address</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>TTY address</k>
+      <def>
+        <deftext>
+          The identifier that specifies the source system or the target system to which a teletype message is sent. Related term <kref>TTY</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Time-Initiated Action</k>
+      <k>TIA</k>
+      <def>
+        <deftext>
+          An action that is launched automatically at a predefined time and that applies to a <kref>flight</kref> date. The TIAs are scheduled through business rules in Reference Data. Most actions
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Travel Information Manual Automatic</k>
+      <k>Timatic</k>
+      <def>
+        <deftext>
+          An electronic publication providing cross-border information for nearly 200 countries. It contains passport and visa requirements, health documentation, airport tax, customs, and currency regulations.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Unaccompanied Minor</k>
+      <k>UMNR</k>
+      <def>
+        <deftext>
+          A child travelling alone without an adult customer. This type of customer requires certain information to be given to the airline before the airline will accept the customer for carriage.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Upgrade</k>
+      <def>
+        <deftext>
+          The <kref>regrade</kref> of a customer from a lower <kref>class</kref> of service to a higher <kref>class</kref> of service. Related term <kref>downgrade</kref> Related term <kref>regrade</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Voluntary Denied Boarding</k>
+      <k>Voluntary Denied Boardings</k>
+      <k>VDB</k>
+      <def>
+        <deftext>
+          The process whereby customers who are accepted on a <kref>flight</kref> volunteer to fly on a different flight, if necessary. VDB occurs when an airline asks for volunteers to fly on a different <kref>flight</kref> because the current <kref>flight</kref> is overbooked. Volunteers are placed on the VDB list and could be <kref>denied boarding</kref> if there are not enough seats for all customers. Related term <kref>denied boarding</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>Universal Coordinated Time</k>
+      <k>Zulu time</k>
+      <k>UTC</k>
+      <def>
+        <deftext>
+          A standard used as a reference for time zones around the world. Also known as atomic time, <kref>Greenwich Mean Time</kref> (<kref>GMT</kref>), and Zulu time.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>acceptance</k>
+      <k>Check-in</k>
+      <def>
+        <deftext>
+          The process in which both the airline and customer commit to the customer's travel on a particular service. The process includes: • Identification. • Baggage acceptance. • Customer acceptance. • Regulatory checks. • Seating. • Printing of <kref>boarding pass</kref> and <kref>bag tag</kref>s.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>acceptance channel</k>
+      <k>acceptance channels</k>
+      <def>
+        <deftext>
+          The means by which a customer is accepted for travel. This includes: • Cryptic. • Auto Check In. • External <kref>DCS</kref> (<kref>IATCI</kref>). • External Front End. • Internet (web). • JFE. • Kiosk. • Mobile Phone. • SMS. • Telephone.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>acceptance status</k>
+      <def>
+        <deftext>
+          An identifier that describes the customer's <kref>acceptance</kref> state. The valid statuses are: • Accepted. • Not Accepted. • Not Travelling. • Standby.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>active bag</k>
+      <k>active bags</k>
+      <def>
+        <deftext>
+          A customer's bag becomes active when the airline has taken possession and control of it. Related term <kref>baggage activation status</kref> Related term <kref>inactive bag</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>ad hoc flight</k>
+      <k>ad hoc flights</k>
+      <def>
+        <deftext>
+          A variation, addition, or cancellation from the basic schedule on a single date.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>air marshal</k>
+      <def>
+        <deftext>
+          A government representative who travels on <kref>flight</kref>s to protect customers from terrorist activities.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>aircraft code</k>
+      <k>aircraft codes</k>
+      <def>
+        <deftext>
+          The 3-character codes made of numbers and letters, which identify different <kref>aircraft type</kref>s. • The numbers are the same or very similar to those used to identify the aircraft. <ex type="exm"><ex_orig>Examples: 321, 737; 747.</ex_orig></ex> • The letters are generally taken from the aircraft manufacturer's name or from the model name given to the aircraft. <ex type="exm"><ex_orig>Examples: D10 for McDonnell Douglas DC10; L10 for Lockheed L1011.</ex_orig></ex> Aircraft codes are most frequently seen in availability and schedule displays. Related term <kref>aircraft type</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>aircraft registration number</k>
+      <k>aircraft registration numbers</k>
+      <def>
+        <deftext>
+          The unique registration of an aircraft that is used for identification purposes. An aircraft registration is made of letters and numbers that indicate both the country of origin and the aircraft identification. <ex type="exm"><ex_orig>Example: VH-EBB.</ex_orig></ex> • VH indicates an Australian aircraft. • EBB is the aircraft identifier.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>aircraft subtype</k>
+      <k>aircraft subtypes</k>
+      <def>
+        <deftext>
+          A subset of aircraft type, for example, 767-338 or 767-336. Many aircraft subtypes can belong to one <kref>aircraft type</kref>. Related term <kref>aircraft type</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>aircraft type</k>
+      <k>aircraft types</k>
+      <def>
+        <deftext>
+          An <kref>IATA</kref> code that identifies an aircraft in a fleet. <ex type="exm"><ex_orig>Example: 320 identifies an Airbus A320-100/200.</ex_orig></ex> Related term <kref>aircraft code</kref> Related term <kref>aircraft subtype</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>airline code</k>
+      <k>airline codes</k>
+      <def>
+        <deftext>
+          The 2-character code to identify an airline, assigned by <kref>IATA</kref>. The code can be the initial letters of the airline name, but this is not always the case. <ex type="exm"><ex_orig>Examples: AC for Air Canada and AF for Air France.</ex_orig></ex> Some airline codes include numbers. <ex type="exm"><ex_orig>Examples: 9W for Jet Airways and B2 for Belavia.</ex_orig></ex> The airline codes appear in all reference and system documentation.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>airport code</k>
+      <k>airport codes</k>
+      <def>
+        <deftext>
+          The 3-letter <kref>IATA</kref> identifier for an airport. For example, LHR for London Heathrow Airport.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>alliance</k>
+      <def>
+        <deftext>
+          A group of airlines that work together for their mutual benefit. <ex type="exm"><ex_orig>Examples: Oneworld, Skyteam, Star Alliance.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>alliance tier</k>
+      <k>alliance tiers</k>
+      <def>
+        <deftext>
+          A common tier for all <kref>alliance</kref> members who hold equitable tiers across each specific airline's frequent flyer programs. <ex type="exm"><ex_orig>Example: AA Executive, BA Premier, and QF Chairman's Lounge are all equal to the Oneworld <kref>alliance</kref> tier of Emerald.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>allocated seat</k>
+      <k>allocated seats</k>
+      <k>assigned seat</k>
+      <k>assigned seats</k>
+      <def>
+        <deftext>
+          The actual seat that the customer will sit in while travelling. Also known as allocated seat, guaranteed seat, and published seat. Related term <kref>ASR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>alternate airport</k>
+      <k>alternate airports</k>
+      <def>
+        <deftext>
+          The planned alternative <kref>en route</kref> and <kref>destination airport</kref>s for a <kref>flight</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>alternate destination</k>
+      <def>
+        <deftext>
+          A destination other than the customer's original <kref>booking</kref> in a multi-leg <kref>flight</kref>. <ex type="exm"><ex_orig>Example: If a customer is booked LHR-BKK-SYD, the alternate destination can only be BKK.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>atomic time</k>
+      <def>
+        <deftext>
+          See <kref>UTC</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>bag tag</k>
+      <def>
+        <deftext>
+          A hand-written or printed tag that identifies the flight, customer, date, destination, and transit points of the accepted <kref>baggage</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>bag tag printer</k>
+      <k>bag tag printers</k>
+      <def>
+        <deftext>
+          The printing device through which a <kref>bag tag</kref> is generated.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>bag tag types</k>
+      <def>
+        <deftext>
+          The type of bag tag, either system-printed or manual. • System-printed <kref>bag tag</kref>s can be either: – N: Normal tags. – F: Fallback tags. Fallback tags are used when there is a communication problem between Altéa Departure Control Customer Management (<kref>CM</kref>) and the <kref>baggage</kref> sortation system. When that happens, the <kref>baggage lateral</kref> is printed on the <kref>bag tag</kref>s. • Manual <kref>bag tag</kref>s are used when there is a problem with the <kref>bag tag printer</kref> or there is no <kref>bag tag printer</kref>. Related term <kref>baggage lateral</kref> Related term <kref>fallback tag</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage</k>
+      <def>
+        <deftext>
+          The articles, effects, and other personal property of customers. Unless otherwise specified, it includes both checked and <kref>cabin baggage</kref>. Also known as luggage.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage acceptance</k>
+      <def>
+        <deftext>
+          The <kref>acceptance</kref> of the customer's <kref>baggage</kref> for loading and transportation. Related term <kref>baggage <kref>acceptance</kref> status</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage acceptance status</k>
+      <def>
+        <deftext>
+          The indicator at which point the <kref>baggage</kref> is in the <kref>baggage acceptance</kref> process. There are three possible <kref>acceptance</kref> statuses: • Accepted: OK to load. • Standby: Provisionally accepted but awaiting authority to load. • Not accepted: Not OK to load. Related term <kref>ATL</kref> Related term <kref>baggage activation status</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage activation status</k>
+      <def>
+        <deftext>
+          The indicator for whether the airline has taken ownership of the customer's bag (active), or if it is still with the customer (inactive). Related term <kref>active bag</kref> Related term <kref>inactive bag</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage allowance</k>
+      <def>
+        <deftext>
+          The weight or number of pieces of <kref>baggage</kref> that the customer can travel with without incurring additional cost, as specified by the airline. Also known as weight allowance.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage group</k>
+      <k>baggage groups</k>
+      <def>
+        <deftext>
+          A group of bags in a shared leg, or legs, belonging to one or more customers, that are associated with a single customer. Related term <kref>baggage pool</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage lateral</k>
+      <def>
+        <deftext>
+          An area where <kref>baggage</kref> is kept after it is sorted. This is only relevant for <kref>departure airport</kref>s that use a <kref>baggage</kref> sortation system. Barcodes on the <kref>baggage</kref> tags are automatically read and the <kref>baggage</kref> is sorted and diverted to this area. Related term <kref>bag tag types</kref> Related term <kref>fallback tag</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage pool</k>
+      <k>baggage pools</k>
+      <def>
+        <deftext>
+          A special type of a <kref>baggage group</kref> where there is more than one customer with bags travelling together. Related term <kref>baggage group</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage process priority</k>
+      <def>
+        <deftext>
+          The priority with which accepted <kref>baggage</kref> is loaded and unloaded. <ex type="exm"><ex_orig>Examples: First Class priority, or Connection priority.</ex_orig></ex> Crew <kref>baggage</kref> is usually loaded last.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage rates table</k>
+      <def>
+        <deftext>
+          A table of <kref>baggage</kref> rates used when calculating <kref>excess baggage</kref> charges.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage record</k>
+      <k>baggage records</k>
+      <def>
+        <deftext>
+          A record that contains all the details of a customer's <kref>baggage</kref> that was accepted for the customer's trip.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>baggage type</k>
+      <k>baggage types</k>
+      <def>
+        <deftext>
+          The type of <kref>baggage</kref> that is accepted. <ex type="exm"><ex_orig>Examples: standard bag, crew bag, or <kref>rush bag</kref>.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>blacklist category</k>
+      <def>
+        <deftext>
+          The reasons for which a <kref>ticket</kref> is refused. These include: • C: Counterfeit. • F: Fraudulent. • L: Lost Stock. • M: Missing. • S: Stolen. • T: Lost in Transit.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>block space</k>
+      <def>
+        <deftext>
+          A type of commercial duplication (codeshare) whereby the <kref>marketing airline</kref> gains complete control over a block of seats from the <kref>operating airline</kref>. No reports of sales activity are sent to the <kref>operating airline</kref> until a few days before departure, when the block and any <kref>booking</kref>s are returned. Related term codeshare
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>blocked seats</k>
+      <def>
+        <deftext>
+          The seats that are intentionally blocked on an aircraft and cannot be automatically assigned to a customer when they are accepted for the <kref>flight</kref>. Seats can be blocked individually or in consecutive rows. Seats can be blocked for a number of reasons and each time a seat is blocked, that reason is recorded.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>board point</k>
+      <k>board points</k>
+      <def>
+        <deftext>
+          A city or airport at which a <kref>flight</kref> <kref>segment</kref> begins. Related term <kref>off point</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>boarding pass</k>
+      <def>
+        <deftext>
+          The document that identifies a customer as eligible to board a specific <kref>flight</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>boarding pass printer</k>
+      <k>boarding pass printers</k>
+      <def>
+        <deftext>
+          The printing device through which a <kref>boarding pass</kref> is generated.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>boarding status</k>
+      <def>
+        <deftext>
+          For a customer: Indication as to whether a customer has or has not boarded. This term is used in: • Altéa Departure Control Customer Management (<kref>CM</kref>). For a flight: Indication of whether the <kref>flight</kref> has started or finished boarding. This term is used in: • Altéa Departure Control Customer Management (<kref>CM</kref>).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>boarding time</k>
+      <def>
+        <deftext>
+          The estimated time for customers to start boarding an aircraft.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>booking</k>
+      <def>
+        <deftext>
+          A generic term for a <kref>reservation</kref> held in a <kref>reservation</kref>s system. It is a record of the customer's <kref>itinerary</kref> for a given trip. It can include one or more flights, as well as hotel and car <kref>reservation</kref>s made through the same system. Also known as <kref>reservation</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>booking class</k>
+      <def>
+        <deftext>
+          A virtual subset of a <kref>segment</kref> <kref>cabin</kref> in which <kref>booking</kref>s are made and recorded. A <kref>booking</kref> <kref>class</kref> is usually identified by a 1-letter code. It is associated to <kref>fare</kref> rules for which a seat can be sold within a <kref>cabin</kref> on a <kref>flight</kref>. Also known as <kref>reservation</kref> <kref>booking</kref> codes.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>booking information</k>
+      <def>
+        <deftext>
+          The information about the purchased <kref>ticket</kref> and the traveler that indicate whether the customer has a <kref>reservation</kref> and other <kref>reservation</kref> details.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>broadcast printer</k>
+      <k>broadcast printers</k>
+      <def>
+        <deftext>
+          The printing device that prints on plain or preprinted paper. <ex type="exm"><ex_orig>Example: Laser printer.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>bulkhead</k>
+      <def>
+        <deftext>
+          The fixed partition on an aircraft.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>cabin</k>
+      <k>cabins</k>
+      <def>
+        <deftext>
+          The physical sectioning of an aircraft that is used to isolate different types of onboard services, such as first, business, and economy.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>cabin baggage</k>
+      <def>
+        <deftext>
+          The <kref>baggage</kref> that the customer carries onto the aircraft, and of which they retain custody. Also known as carry-on baggage, hand baggage, and unchecked <kref>baggage</kref>. Note: <kref>CBBG</kref> is a specific type of <kref>cabin</kref> <kref>baggage</kref> for which the customer pays an extra fee. Related term <kref>CBBG</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>cabin baggage in seat</k>
+      <k>cabin baggage in seats</k>
+      <k>CBBG</k>
+      <def>
+        <deftext>
+          The <kref>cabin baggage</kref> that occupies a seat in the <kref>cabin</kref>. This designation is used when a customer has paid to place an item of carry-on <kref>baggage</kref> in a seat on the aircraft. Most commonly used for musical instruments and delicate scientific or medical equipment.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>cabin code</k>
+      <k>cabin codes</k>
+      <def>
+        <deftext>
+          The single letter designator that is used to identify a specific <kref>cabin</kref> area. Each <kref>cabin</kref> provides different levels of service and comfort. <ex type="exm"><ex_orig>Examples: F - First Class, J - Business Class, and Y - Economy Class.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>cabin configuration</k>
+      <def>
+        <deftext>
+          The configuration of the <kref>cabin</kref> for the fitted and the saleable configurations. • The fitted configuration describes how the aircraft is physically equipped. • The saleable configuration describes how the seats are distributed on the aircraft and how they are sold to various passenger categories (in other words, <kref>cabin</kref>s).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>cabin crew</k>
+      <def>
+        <deftext>
+          The persons performing duties on the <kref>flight</kref> other than in the cockpit.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>cancel acceptance</k>
+      <def>
+        <deftext>
+          The circumstance when a customer is removed from a <kref>flight</kref> after <kref>acceptance</kref> or boarding.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>carrier</k>
+      <k>carriers</k>
+      <def>
+        <deftext>
+          The air carrier issuing the <kref>ticket</kref> (or air waybill) and all air carriers that can carry passengers and their <kref>baggage</kref> (or cargo), or perform any other services related to such air carriage.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>carrier code</k>
+      <k>carrier codes</k>
+      <def>
+        <deftext>
+          A 2-character code (letters and numbers) that identifies an airline. <ex type="exm"><ex_orig>Examples: BA (British Airways), LH (Lufthansa).</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>channel</k>
+      <k>channels</k>
+      <def>
+        <deftext>
+          The method or outlet through which a <kref>CPR</kref> or other transaction is accessed for the purpose of <kref>acceptance</kref> or boarding.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>chargeable service</k>
+      <k>chargeable services</k>
+      <def>
+        <deftext>
+          The additional services not included in the <kref>fare</kref> for which the customer must pay, such as an exit row seat or a pet in the <kref>cabin</kref> (PETC).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>checked baggage</k>
+      <def>
+        <deftext>
+          The <kref>baggage</kref> of which the <kref>carrier</kref> takes sole custody and for which the <kref>carrier</kref> has issued a <kref>baggage</kref> check. Also known as registered luggage.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>child fare</k>
+      <k>child fares</k>
+      <def>
+        <deftext>
+          A <kref>fare</kref> for children who are in a specific age range.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>class</k>
+      <def>
+        <deftext>
+          The type of service offered on an aircraft. <ex type="exm"><ex_orig>Examples: First, Business, and Economy.</ex_orig></ex> When shown as a code, it is generally the same as the <kref>cabin code</kref> designator. Related term <kref>cabin code</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>connecting flight</k>
+      <k>connecting flights</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> from one point to another that makes a connection at an intermediate airport. A connecting <kref>flight</kref> can be with the same airline or with a combination of airlines.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>connecting point</k>
+      <k>connecting points</k>
+      <def>
+        <deftext>
+          Any point in an <kref>itinerary</kref> at which the customer must <kref>transfer</kref> from one <kref>flight</kref> to another.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>connecting time</k>
+      <def>
+        <deftext>
+          The amount of time available to <kref>transfer</kref> a customer and <kref>baggage</kref> from one <kref>flight</kref> to another. Related term <kref>MCT</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>courtesy seat</k>
+      <k>courtesy seats</k>
+      <def>
+        <deftext>
+          A seat reserved for a customer without charge.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>crew baggage</k>
+      <def>
+        <deftext>
+          The <kref>baggage</kref> that is the property of the operating crew and which is separately identified.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>customer list</k>
+      <k>customer lists</k>
+      <def>
+        <deftext>
+          A list of customers sharing common characteristics, such as destination or travelling with infants. Customer lists can be predefined by your airline or you can build them by filtering all customers on a <kref>flight</kref> by a specific set of criteria.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>customer tracking</k>
+      <k>customer trackings</k>
+      <def>
+        <deftext>
+          The ability of an airline agent to specify and identify a point of contact with the customer while the customer is in an airport <kref>acceptance</kref> environment. <ex type="exm"><ex_orig>Examples: Entrance into the airline lounge or at an airline counter.</ex_orig></ex> Also known as tracking.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>customer type</k>
+      <k>customer types</k>
+      <def>
+        <deftext>
+          The age category of the customer. <ex type="exm"><ex_orig>Examples: Adult, child, and infant.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>de-board</k>
+      <def>
+        <deftext>
+          To remove a boarded customer from a <kref>flight</kref>. A customer who is de-boarded can subsequently have their <kref>acceptance</kref> cancelled. In this situation, the new <kref>acceptance status</kref> would be Not travelling.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>de-pool</k>
+      <def>
+        <deftext>
+          To remove customers from a <kref>baggage pool</kref>. Related term <kref>baggage pool</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>dead load</k>
+      <k>dead loads</k>
+      <def>
+        <deftext>
+          This term has more than one definition. Definition Usage The seats blocked for the transport of cargo, for example, newspapers, or for weight and balance reasons. Dead load seats reduce the <kref>cabin</kref> capacity and cannot be assigned to customers. This term is used in: • Altéa Departure Control Customer Management (<kref>CM</kref>). The baggage, cargo, mail, ballast, courier, and equipment in compartments not included in the Dry Operating Weight of the aircraft. This term is used in: • Altéa Departure Control Flight Management (<kref>FM</kref>).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>deck</k>
+      <k>decks</k>
+      <def>
+        <deftext>
+          A structural floor level. • For aircraft having one structure level only, this floor level should be referred to as the main deck. • For aircraft having more than one structural floor level, the different floor levels should be referred to as lower deck, main deck, and upper deck, from bottom to top. Also known as lower deck, main deck, and upper deck.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>denied boarding</k>
+      <k>denied boardings</k>
+      <def>
+        <deftext>
+          The process whereby customers who are accepted on a <kref>flight</kref> are not permitted to board the aircraft. This situation occurs when the <kref>flight</kref> is overbooked and there are not enough seats for all customers. Customers are offered compensation, usually in the form of money or travel vouchers. Denied boarding can be either involuntary (IDB) or voluntary (<kref>VDB</kref>). Related term IDB Related term <kref>VDB</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>departure airport</k>
+      <k>departure airports</k>
+      <def>
+        <deftext>
+          The airport from which the aircraft last departed using the same <kref>flight number</kref>. Related term <kref>destination airport</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>destination airport</k>
+      <k>destination airports</k>
+      <def>
+        <deftext>
+          The ultimate intended termination airport of a <kref>flight</kref>. Related term <kref>departure airport</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>disruption</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> disruption is a variation to the <kref>flight</kref> schedule on or close to the day of departure of a flight, caused by a planned or an unplanned event. The following events are the main types of disruptions: • Flight cancellation. • Routing change. • Seating configuration change. • Time change.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>downgrade</k>
+      <def>
+        <deftext>
+          The <kref>regrade</kref> of a customer from a higher <kref>class</kref> of service to a lower <kref>class</kref> of service. Related term <kref>regrade</kref> Related term upgrade
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>downline protected</k>
+      <def>
+        <deftext>
+          The seats that are blocked for certain customers on a <kref>leg</kref>. If a customer is travelling from point A to point C via point B, the upline airport is point A and the downline airports are points B and C. If the upline airport is an offline station, it is not possible for the agent to see which seats are available on the second <kref>leg</kref> (B to C). Downline protected means that certain seats on <kref>leg</kref> B to C are blocked for the customers who travel from point A to point C. Related term <kref>upline protected</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>electronic stapling</k>
+      <k>e-stapling</k>
+      <def>
+        <deftext>
+          The process of associating multiple <kref>e-ticket</kref> coupons with a single <kref>flight</kref>. Related term multiple association (<kref>e-ticket</kref>s)
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>electronic ticket</k>
+      <k>electronic tickets</k>
+      <k>e-ticket</k>
+      <def>
+        <deftext>
+          A <kref>ticket</kref> that is stored electronically in the airline system, not printed on paper. An <kref>itinerary</kref> receipt (<kref>ITR</kref>) is issued to the customer instead of a paper <kref>ticket</kref>. This <kref>ITR</kref> includes a <kref>booking</kref> code or record locator that is presented during <kref>acceptance</kref>. Related term <kref>ITR</kref> Related term <kref>ticket</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>en route</k>
+      <def>
+        <deftext>
+          A point between the point of departure and the point of destination. Equivalent to through movement.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>entitled cabin</k>
+      <k>entitled cabins</k>
+      <def>
+        <deftext>
+          A <kref>cabin</kref> into which the customer is entitled to be regraded.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>excess baggage</k>
+      <def>
+        <deftext>
+          The <kref>baggage</kref> for which either the number of allowed pieces or the combined weight of the pieces exceeds the limit allowed by the airline. This is based on the airline's policy. excess <kref>baggage</kref> waiver The waiver of charging customers a fee to have bags accepted that are heavier than the maximum allowed weight.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>fallback tag</k>
+      <def>
+        <deftext>
+          The tags that are used in the event that Altéa Departure Control Customer Management (<kref>CM</kref>) cannot notify the <kref>baggage</kref> sortation system of bags it is about to send into the system. <ex type="exm"><ex_orig>Example: Due to a communications outage.</ex_orig></ex> Fallback tags contain details of the <kref>baggage lateral</kref> to which the bag should be sent. This enables the system to deliver the bag to the correct location without receiving a <kref>BSM</kref>. Related term <kref>bag tag types</kref> Related term <kref>baggage lateral</kref> Related term <kref>BSM</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>fare</k>
+      <k>fares</k>
+      <def>
+        <deftext>
+          The amount charged by the airline or other supplier for the carriage of customers and their free <kref>baggage allowance</kref>. It is the current charge that an airline or other supplier advertises as applicable to the <kref>class</kref> of service furnished.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>fare family</k>
+      <def>
+        <deftext>
+          A family of <kref>booking</kref> classes that are grouped together for commercial reasons, and share the same rule conditions.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>fare type</k>
+      <k>fare types</k>
+      <def>
+        <deftext>
+          The categories of <kref>fare</kref>s offered for sale by an airline. For example: • Full <kref>fare</kref>s. These <kref>fare</kref>s have no restrictions (dates and names can be changed before departure). Fare can be fully refunded at any time. • Discounted <kref>fare</kref>s. These <kref>fare</kref>s have restrictions such as cancellation fees and limited date change and refund options.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>final load sheet</k>
+      <k>final load sheets</k>
+      <def>
+        <deftext>
+          The <kref>load sheet</kref> that contains the final weight data pertaining to a particular flight, such as the weight of an aircraft, crew, pantry, fuel, passengers, baggage, cargo, and mail. It also contains details of the distribution of the load in the aircraft. Related term <kref>load sheet</kref> Related term <kref>radio load sheet</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>flight</k>
+      <k>flights</k>
+      <def>
+        <deftext>
+          The operation of an aircraft between two or more points.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>flight acceptance status</k>
+      <def>
+        <deftext>
+          An indication of whether the <kref>flight</kref> is open for <kref>acceptance</kref> everywhere, open just at the gate, or closed for <kref>acceptance</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>flight coupon</k>
+      <k>flight coupons</k>
+      <def>
+        <deftext>
+          A coupon in the <kref>ticket</kref> that indicates the two cities for which the coupon is valid. It specifies the <kref>class</kref> of service and usually calls for a reserved space on a particular <kref>flight</kref> and date.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>flight crew</k>
+      <def>
+        <deftext>
+          The persons operating the <kref>flight</kref> in the cockpit. Also known as cockpit crew and technical crew.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>flight deck</k>
+      <k>flight decks</k>
+      <def>
+        <deftext>
+          The part of the aircraft where the <kref>flight crew</kref> control the aircraft. Also known as cockpit.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>flight number</k>
+      <k>flight numbers</k>
+      <def>
+        <deftext>
+          The alphanumeric designator of a flight, prefixed by a 2- or 3-alphanumeric airline designator.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>flow forward</k>
+      <def>
+        <deftext>
+          The process of moving early customers to earlier <kref>flight</kref>s on day of departure for operational or commercial reasons. Eligibility for flow forward is dependent on the customer value (<kref>PCV</kref>) and operational requirements of the day.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>free flow</k>
+      <def>
+        <deftext>
+          A type of commercial duplication (codeshare) whereby the <kref>operating airline</kref> remains in full control over the <kref>inventory</kref> and <kref>seat map</kref>. Sales on the <kref>marketing airline</kref> are reported to the <kref>operating airline</kref>. The <kref>operating airline</kref> sends Availability Status Messages (AVSs) to the marketing airline, which in turn forwards them to <kref>Computerized Reservation System</kref>s (<kref>CRS</kref>s). Also known as <kref>free sale</kref>. Related term codeshare
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>free sale</k>
+      <k>free sales</k>
+      <def>
+        <deftext>
+          The term used on the Altéa Departure Control Customer Management (<kref>CM</kref>) user interface to represent a <kref>free flow</kref> codeshare agreement. Related term <kref>free flow</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>free seating</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> that has no <kref>assigned seat</kref>s. Customers select their seat when they board the aircraft.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>galley</k>
+      <def>
+        <deftext>
+          The food preparation area on an aircraft.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>gate</k>
+      <def>
+        <deftext>
+          An area through which a customer passes when boarding an aircraft.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>gate bags</k>
+      <def>
+        <deftext>
+          The <kref>cabin baggage</kref> collected at the <kref>gate</kref> to be taken into the hold of the aircraft.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>gate reader</k>
+      <k>gate readers</k>
+      <def>
+        <deftext>
+          A device at the <kref>gate</kref> that scans the customer's <kref>boarding pass</kref> and registers them as having boarded the aircraft.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>gender</k>
+      <def>
+        <deftext>
+          An indication as to whether a customer is male (M) or female (F).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>general declaration</k>
+      <k>GenDec</k>
+      <def>
+        <deftext>
+          A standard document giving certain details about a <kref>flight</kref> required for aircraft clearance by government authorities in certain countries.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>general flight status</k>
+      <def>
+        <deftext>
+          An indication as to whether the <kref>flight</kref> is cancelled departed, locked, ready for use, open, plan initialized, or suspended.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>go show</k>
+      <def>
+        <deftext>
+          A customer who presents themselves for <kref>acceptance</kref> for a specific flight, holds a ticket, but does not have a confirmed <kref>reservation</kref> for that <kref>flight</kref>. The customer might hold a waitlisted or space available reservation, or might hold a <kref>reservation</kref> for another <kref>flight</kref>. Related term <kref>NOREC</kref> Related term <kref>NOSHOW</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>ground handling</k>
+      <def>
+        <deftext>
+          The activities that are needed to prepare an aircraft for departure, such as accepting customers, loading <kref>baggage</kref> and fueling the aircraft. An airline can enter an agreement with another company (or airline) to perform ground handling activities on its behalf. Related term <kref>ground handling agent</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>ground handling agent</k>
+      <k>ground handling agents</k>
+      <def>
+        <deftext>
+          A company, airline, or organization appointed by an airline to perform ground-handling functions on their behalf.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>ground handling agreement</k>
+      <k>ground handling agreements</k>
+      <def>
+        <deftext>
+          An agreement entered into by an airline and another company (or airline) whereby all ground-handling activities are performed by the second company on behalf of the first company. This agreement might or might not include the processing of customer <kref>acceptance</kref> in a different system.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>handler carrier code</k>
+      <k>handler carrier codes</k>
+      <def>
+        <deftext>
+          The code assigned to each ground handler or airline that is exclusive to that operator. Each operator is able to manage the security, business rules, and departure plan activities for their specific code. This gives them the autonomy to create ad hoc <kref>flight</kref>s (currently for only CM-only <kref>flight</kref>s) without Amadeus support. The format of the handler <kref>carrier code</kref> follows these rules: • For ground-handling organizations: The handler's numeric code followed by the letter A. <ex type="exm"><ex_orig>Example: 11A for Swissport 11, and 19A for AHS 19.</ex_orig></ex> • For ground-handling airlines: <kref>IATA</kref> Code Format The airline's <kref>IATA</kref> code includes only letters. The number 1 followed by the <kref>IATA</kref> code. <ex type="exm"><ex_orig>Example: 1AF for Air France.</ex_orig></ex> The airline's <kref>IATA</kref> code includes a number. The <kref>IATA</kref> code followed by the letter A. <ex type="exm"><ex_orig>Example: S7A for S7 Airlines.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>hold baggage</k>
+      <def>
+        <deftext>
+          The <kref>baggage</kref> that is accepted and placed in the aircraft hold. It has the authority to transport. Related term <kref>ATT</kref> Related term <kref>baggage <kref>acceptance</kref> status</kref> Related term <kref>baggage activation status</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>inactive bag</k>
+      <k>inactive bags</k>
+      <def>
+        <deftext>
+          A bag that the customer still carries with them. The bag becomes active once it has been given to the airline. Related term <kref>active bag</kref> Related term <kref>baggage activation status</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>inbound</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> on which the customer is arriving at your airport when connecting to another sector of the same <kref>flight</kref> or a different <kref>flight</kref>. Related term <kref>outbound</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>infant fare</k>
+      <k>infant fares</k>
+      <def>
+        <deftext>
+          The <kref>fare</kref> for an infant who has not attained a specified birthday. The specific age varies by airline.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>infant quota</k>
+      <k>infant quotas</k>
+      <def>
+        <deftext>
+          The number of infants allowed on a specific <kref>aircraft type</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>interactive Advance Passenger Information</k>
+      <k>iAPI</k>
+      <def>
+        <deftext>
+          Related term <kref>APIS</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>interactive Advance Passenger Processing</k>
+      <k>iAPP</k>
+      <def>
+        <deftext>
+          Related term <kref>APP</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>interline</k>
+      <def>
+        <deftext>
+          The activity involving two or more airlines for which an interline agreement exists. Interline activities can include: • Interline <kref>baggage</kref>. • Interline connection. • Interline itinerary, • Interline pricing. • Interline <kref>reservation</kref>s. Related term <kref>Interline agreement</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>inventory</k>
+      <def>
+        <deftext>
+          The number of available seats for sale on a specific flight, in a specific <kref>cabin</kref> or for a specific <kref>booking</kref> <kref>class</kref>. This number is derived from the airline's inventory system.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>itinerary</k>
+      <def>
+        <deftext>
+          A complete description of a customer's trip, from the beginning to the end, even if separated by one or more gaps. An itinerary can consist of air, train, hotel, and car segments, which are also referred to as itinerary elements.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>joining</k>
+      <def>
+        <deftext>
+          The boarding or loading at a transit <kref>station</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>journey</k>
+      <def>
+        <deftext>
+          The <kref>segment</kref>s that are already booked as part of the <kref>itinerary</kref> stored in the customer's <kref>SBR</kref>. Also known as trip. Related term <kref>SBR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>jump seat</k>
+      <k>jump seats</k>
+      <def>
+        <deftext>
+          An aircraft seat that is situated in the cockpit or passenger cabin, but is not for sale to customers. Jump seats are used by the <kref>cabin crew</kref> for take-off and landing. In some situations, a jump seat can be assigned to approved company personnel.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>known traveler number</k>
+      <k>known traveler numbers</k>
+      <def>
+        <deftext>
+          A number allocated by the U.S. Department of Homeland Security (DHS) to those customers who have registered with the DHS Private Sector Known Traveler (DHS PSKT) program. Under the program, qualified travelers are positively identified to confirm that these travelers are not suspected of posing a threat to aviation security.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>leg</k>
+      <k>legs</k>
+      <def>
+        <deftext>
+          A <kref>non-stop flight</kref> between a departure <kref>station</kref> and an arrival <kref>station</kref>. Also known as sector. Related term <kref>segment</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>link</k>
+      <k>links</k>
+      <def>
+        <deftext>
+          The <kref>joining</kref> of two or more customers so they can be processed together for part or their entire <kref>journey</kref>. This can be done even if not all the <kref>flight</kref> <kref>leg</kref>s are identical. Customers on different <kref>journey</kref>s can be linked, but they cannot have <kref>baggage</kref> pooled. Related term <kref>pooling</kref> Related term <kref>sublink</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>load control status</k>
+      <def>
+        <deftext>
+          The indication of the progress of load control activities for a specific <kref>flight</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>load sheet</k>
+      <k>load sheets</k>
+      <def>
+        <deftext>
+          A document that contains all the weight data pertaining to a particular flight, such as the weight of the aircraft, crew, pantry, fuel, passengers, baggage, cargo, and mail. It also contains the distribution of this load in the aircraft. Related term <kref>final load sheet</kref> Related term <kref>provisional load sheet</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>local security administrator</k>
+      <k>local security administrators</k>
+      <def>
+        <deftext>
+          A designated person within an airline who is responsible for maintaining security attributes, also known as roles and permissions.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>locked flight</k>
+      <k>locked flights</k>
+      <def>
+        <deftext>
+          A lock on a specific <kref>flight</kref> that restricts access to all but a few high-level users. This is used if there is a major incident on a <kref>flight</kref> that requires an emergency to be declared.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>market</k>
+      <k>markets</k>
+      <def>
+        <deftext>
+          A geographical area. It can be the world, a region, a country, a city, or an airport. It can also be a combination of different levels. This term applies to <kref>Amadeus Business Rules</kref> (<kref>ABR</kref>). Related term <kref>ABR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>marketing airline</k>
+      <k>marketing airlines</k>
+      <def>
+        <deftext>
+          The airline in a codeshare agreement that sells the available seats. Related term codeshare Related term <kref>operating airline</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>married segment</k>
+      <k>married segments</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> <kref>segment</kref> that is restricted for use only in combination with a connecting flight, due to legal or commercial requirements. <ex type="exm"><ex_orig>Example: 6X operates LHR-EZE-MVD.</ex_orig></ex> However, due to a commercial agreement with a partner airline in Argentina, 6X is not permitted to sell <kref>ticket</kref>s for the <kref>segment</kref> EZE-MVD. Customers can purchase <kref>ticket</kref>s on 6X from LHR-EZE or LHR-MVD, but not EZE-MVD. When the two <kref>segment</kref>s are sold together in this way, they are known as married <kref>segment</kref>s. When <kref>segment</kref>s are married to other <kref>segment</kref>s in the itinerary, it is not possible to cancel, price, or <kref>ticket</kref> the married <kref>segment</kref> individually.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>narrow body aircraft</k>
+      <k>narrow body aircrafts</k>
+      <def>
+        <deftext>
+          A passenger aircraft of any type with six or fewer seats across and a single aisle in the <kref>cabin</kref>. Also known as small capacity aircraft.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>nationality</k>
+      <def>
+        <deftext>
+          The country for which the customer holds a passport.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>non-stop flight</k>
+      <k>non-stop flights</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> that operates between two points directly without scheduled stops during the trip.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>off point</k>
+      <k>off points</k>
+      <def>
+        <deftext>
+          A city or airport at which a <kref>flight</kref> <kref>segment</kref> terminates. Related term <kref>board point</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>office ID</k>
+      <def>
+        <deftext>
+          A nine-character code composed of distinct parameters that together identify the travel agency or airline. The office ID is comprised of these parameters: • Corporate code or Carrier code. • Modifier. • Country. • City. • Complete office number. For example, 6X0FRNCE100 means 6X Airlines office number 100, modifier 0, in Nice, France.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>offline leg</k>
+      <k>offline legs</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> <kref>leg</kref> is offline when customer <kref>acceptance</kref> is not handled by an Altéa-hosted airline. An external departure control system is used. Related term <kref>online leg</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>oncarriage</k>
+      <def>
+        <deftext>
+          The onward <kref>flight</kref> to which a customer is connecting.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>online leg</k>
+      <k>online legs</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> <kref>leg</kref> is online when customer <kref>acceptance</kref> is handled by an Altéa-hosted airline. Altéa Departure Control is used. Related term offline
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>open ticket</k>
+      <k>open tickets</k>
+      <def>
+        <deftext>
+          A <kref>ticket</kref> that is valid for transportation between certain points, but indicates no specific <kref>reservation</kref>. The customer secures the <kref>reservation</kref> later. Tickets can be issued with a confirmed outward portion and an open return.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>operating airline</k>
+      <k>operating airlines</k>
+      <def>
+        <deftext>
+          The airline in a codeshare agreement that operates the <kref>flight</kref>. This can be different from the <kref>marketing airline</kref>. Related term codeshare Related term <kref>marketing airline</kref> Related term <kref>validating carrier</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>operational leg</k>
+      <k>operational legs</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> <kref>leg</kref> that is physically operated and identified by its airline designator and <kref>flight number</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>origin airport</k>
+      <k>origin airports</k>
+      <def>
+        <deftext>
+          The place where the <kref>flight</kref> commences.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>outbound</k>
+      <def>
+        <deftext>
+          A <kref>flight</kref> or <kref>flight</kref> <kref>leg</kref> on which the customer leaves their airport of origin. Related term <kref>inbound</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>passenger manifest</k>
+      <k>passenger manifests</k>
+      <def>
+        <deftext>
+          An <kref>IATA</kref> document that lists the names of customers to be carried on a specific flight, on a specific date, and to a specific destination. A passenger manifest is required for every <kref>flight</kref> and is generally produced close to or at departure time.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>policy waiver</k>
+      <def>
+        <deftext>
+          Internal airline policy to allow more <kref>baggage</kref> per customer than the standard normal <kref>acceptance</kref> limit. It overrides the standard normal <kref>acceptance</kref> limit or condition of carriage. Also known as waiver
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>pooling</k>
+      <def>
+        <deftext>
+          The process of combining the <kref>baggage allowance</kref> for two or more customers. One customer takes responsibility for all of the bags in the pool and is known as the <kref>Head of Pool</kref> (<kref>HOP</kref>). Every other customer is known as a <kref>Member of Pool</kref> (<kref>MOP</kref>). Pooling can occur when the <kref>baggage</kref> is presented for <kref>acceptance</kref> at the same time by customers who are travelling together on the same <kref>flight</kref> to a common destination or <kref>stopover</kref>. Related term <kref>HOP</kref> Related term <kref>MOP</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>prime flight</k>
+      <k>prime flights</k>
+      <def>
+        <deftext>
+          The <kref>flight</kref> you specified when you identified customers, or the one determined automatically by the system based on your physical location and the system date. By default, this is the first <kref>flight</kref> in the <kref>journey</kref> for which you are accepting customers or updating their details.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>provisional load sheet</k>
+      <k>provisional load sheets</k>
+      <def>
+        <deftext>
+          A <kref>load sheet</kref> containing estimated weight and balance data. Related term <kref>load sheet</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>radio load sheet</k>
+      <k>radio load sheets</k>
+      <def>
+        <deftext>
+          A final <kref>load sheet</kref> transmitted via VHF transmission. Related term final <kref>load sheet</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>ramp agent</k>
+      <k>ramp agents</k>
+      <def>
+        <deftext>
+          A person on the ramp who supervises and coordinates the tasks of <kref>ground handling</kref> for an aircraft departure or arrival.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>re-accommodation</k>
+      <def>
+        <deftext>
+          The process of transferring a passenger to another <kref>flight</kref> because the original <kref>flight</kref> schedule was modified or cancelled.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>record Locator</k>
+      <k>RECLOC</k>
+      <def>
+        <deftext>
+          A code representing a <kref>PNR</kref> file address. Related term <kref>PNR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>redress number</k>
+      <k>redress numbers</k>
+      <def>
+        <deftext>
+          A number allocated by the Department of Homeland Security (DHS) to those customers who have registered with the DHS Traveler Redress Inquiry Program (DHS TRIP).
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>regrade</k>
+      <def>
+        <deftext>
+          The process of transferring a customer to a <kref>class</kref> of service (<kref>cabin</kref>) that is different from the one in which the <kref>booking</kref> was made. This can take the form of an upgrade or a <kref>downgrade</kref>. Related term <kref>downgrade</kref> Related term upgrade
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>regrade reason</k>
+      <k>regrade reasons</k>
+      <def>
+        <deftext>
+          The reason for which the customer was upgraded or downgraded.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>regrade type</k>
+      <k>regrade types</k>
+      <def>
+        <deftext>
+          The type of <kref>regrade</kref>. Whether the customer was upgraded or downgraded voluntarily or involuntarily.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>regulatory information</k>
+      <def>
+        <deftext>
+          The information about a customer that includes date of birth, gender, <kref>nationality</kref> and passport number.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>reservation</k>
+      <k>reservations</k>
+      <def>
+        <deftext>
+          See <kref>booking</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>rush bag</k>
+      <k>rush bags</k>
+      <def>
+        <deftext>
+          A bag that does not accompany the customer on the booked flight, but is assigned to an alternative <kref>flight</kref> to reach its destination and owner. This only happens under special circumstances.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>seat characteristics</k>
+      <def>
+        <deftext>
+          The information that describes the attributes of a seat. <ex type="exm"><ex_orig>Examples: Aisle, window, or middle seat.</ex_orig></ex> Also known as seat attributes.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>seat map</k>
+      <k>seat maps</k>
+      <def>
+        <deftext>
+          A graphical representation of the <kref>seating</kref> configuration for a specific aircraft on a specific date. It shows seat attributes current seat <kref>reservation</kref>s and the location of key features such as toilets, closets, galleys, and emergency exits.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>seat preference</k>
+      <k>seat preferences</k>
+      <def>
+        <deftext>
+          The information that identifies specific seats or <kref>seat characteristics</kref> that are requested by the customer.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>seating</k>
+      <def>
+        <deftext>
+          The procedure whereby customers obtain their seats. It could be free, allocated, or selected. Related term <kref>allocated seat</kref> Related term <kref>free seating</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>segment</k>
+      <k>segments</k>
+      <def>
+        <deftext>
+          A saleable journey, involving a single <kref>flight</kref> designator, between a <kref>board point</kref> and an <kref>off point</kref>. A segment is a commercial concept, whereas a <kref>leg</kref> is a physical split of a flight's <kref>itinerary</kref>. Related term <kref>leg</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>service code</k>
+      <k>service codes</k>
+      <def>
+        <deftext>
+          The codes used in a customer's <kref>booking</kref> to request additional services. Related term <kref>OSI</kref> Related term <kref>SSR</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>staff</k>
+      <def>
+        <deftext>
+          An airline employee and other eligible customers who are travelling for the purposes of conducting business for that airline or who are using employee discounts. This includes <kref>flight crew</kref> who are travelling on the <kref>flight</kref> but not in an operating capacity.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>standby</k>
+      <def>
+        <deftext>
+          A customer <kref>acceptance status</kref>. It is a waitlisted customer who will travel if space becomes available on the <kref>flight</kref>. Related term <kref>acceptance status</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>station</k>
+      <k>stations</k>
+      <def>
+        <deftext>
+          An airport at which airlines operate. Also known as port.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>stopover</k>
+      <def>
+        <deftext>
+          A deliberate interruption of a customer's trip made by the customer. It can be any point between the <kref>departure airport</kref> and final destination. The interruption is reflected on the customer's <kref>ticket</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>sublink</k>
+      <k>sublinks</k>
+      <def>
+        <deftext>
+          An additional level of linking that applies to customers who are already part of a <kref>link</kref>. This is commonly used when a subset of a group of linked customers want to sit together when travelling. Related term <kref>link</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>swipe</k>
+      <def>
+        <deftext>
+          The process of identifying a customer by moving a form of encoded identification through a reader. <ex type="exm"><ex_orig>Example: Credit card or passport.</ex_orig></ex>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>terminal</k>
+      <k>terminals</k>
+      <def>
+        <deftext>
+          The part of an airport where customers depart and arrive.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>theoretical seat</k>
+      <k>theoretical seats</k>
+      <def>
+        <deftext>
+          A seat that is allocated to a customer by Altéa Departure Control Customer Management (<kref>CM</kref>) before customer <kref>acceptance</kref>. A theoretical seat is unknown to the customer or the <kref>acceptance</kref> agent. To become an assigned seat, the seat must be confirmed by Altéa Departure Control Customer Management (<kref>CM</kref>) through customer <kref>acceptance</kref> and not be changed by overriding.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>ticket</k>
+      <k>tickets</k>
+      <def>
+        <deftext>
+          An <kref>IATA</kref> document issued by an airline or authorized travel agent representing a contract between the customer and the airline. It specifies that the airline provides transportation for the customer between designated cities. Related term <kref>e-ticket</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>ticketing agent</k>
+      <k>ticketing agents</k>
+      <k>TA</k>
+      <def>
+        <deftext>
+          An airline office or travel agency that is authorized by <kref>IATA</kref> to issue <kref>ticket</kref>s.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>transfer</k>
+      <k>transfers</k>
+      <def>
+        <deftext>
+          The traffic (customer or <kref>baggage</kref>) that arrives on a <kref>flight</kref> and continues on another <kref>flight</kref> within a defined time limit.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>transit airport</k>
+      <k>transit airports</k>
+      <def>
+        <deftext>
+          An airport that is scheduled as an <kref>en route</kref> stop for a <kref>flight</kref>. Also known as transit port and transit <kref>station</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>transit customer</k>
+      <def>
+        <deftext>
+          The onward travelling customers who remain on the same <kref>flight number</kref> for the next <kref>leg</kref> of the <kref>flight</kref>.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>upline protected</k>
+      <def>
+        <deftext>
+          The seats that are blocked for certain customers on a <kref>leg</kref>. If a customer is travelling from point A to point C via point B, the upline airport is point A and the downline airports are points B and C. If the downline airport B is an offline station, it is not possible for the agent to see which seats are available on the first <kref>leg</kref> (A to B). Upline protected means that certain seats on <kref>leg</kref> A to B are blocked for the customers who travel from point A to point C. Related term <kref>downline protected</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>validating carrier</k>
+      <k>validating carriers</k>
+      <def>
+        <deftext>
+          The airline on which the <kref>ticket</kref> is issued. This could be the <kref>marketing airline</kref> <kref>carrier</kref> or <kref>operating airline</kref> <kref>carrier</kref>. Related term <kref>marketing airline</kref> Related term <kref>operating airline</kref>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>validation</k>
+      <def>
+        <deftext>
+          The imprinting of a <kref>ticket</kref> or voucher with the identifying mark of an airline or agency. Validation is necessary to make a standard <kref>ticket</kref> legal for travel.
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>waitlist</k>
+      <def>
+        <deftext>
+          A list of customers holding an unconfirmed <kref>booking</kref>. The status of a waitlisted customer can be changed to confirmed during the waitlist clearance process, when space becomes available, for example, as a result of a cancellation. Related term <kref>standby</kref>
+        </deftext>
+      </def>
+    </ar>
