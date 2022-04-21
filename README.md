@@ -28,6 +28,8 @@ Or do the same steps manually:
 2. You can _Look Up_ words from any place: force-push the word or control-click selected text. Then, in the contextual
    menu that appears, choose Look Up.
 3. If you want to add or change a record in this dictionary, please do make a Pull Request or crate an Issue or send me a message!
+4. [Setup automatic updates](https://github.com/aleksandr-vin/klm-dictionary/wiki/Getting-automatic-updates).
+
 
 ## Development
 
