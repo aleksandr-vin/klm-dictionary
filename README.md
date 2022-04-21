@@ -54,7 +54,7 @@ Run `./setup.sh`, you'll need Python 3.
 
 Run `./build.sh`.
 
-You'll get sources for creating Apple Dictionary at `Dictionary/` and the result at `objects/KLM.dictionary`.
+You'll get sources for creating Apple Dictionary at `Dictionary/` and the result at `objects/target/KLM.dictionary`.
 
 ### Installing to User's Dictionaries
 
