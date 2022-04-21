@@ -1,0 +1,19 @@
+<xdxf revision="34">
+  <meta_info>
+    <title>KLM</title>
+    <full_title>KLM Dictionary</full_title>
+    <authors>
+      <author role="programmer">Aleksandr Vinokurov aleksandr.vin@gmail.com</author>
+    </authors>
+    <description>
+      No Copyright, (CC0 1.0).
+      Abbreviations and definitions in KLM.
+    </description>
+    <file_ver>1</file_ver>
+    <creation_date>02-04-2022</creation_date>
+    <last_edited_date>{{last_edited_date}}</last_edited_date>
+    <dict_edition>{{VERSION}}</dict_edition>
+    <publishing_date></publishing_date>
+    <dict_src_url>https://github.com/aleksandr-vin/klm-dictionary</dict_src_url>
+  </meta_info>
+  <lexicon>

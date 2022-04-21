@@ -1,0 +1,16 @@
+
+    <!-- Samples -->
+    <!-- See https://github.com/soshial/xdxf_makedict/tree/master/format_standard -->
+    <!-- <ar>
+         <k>ball</k>
+         <def cmt="spherical object">
+           <gr>Noun</gr>
+           <deftext>not a <kref>box</kref>.</deftext>
+           <ex type="exm">
+             <ex_orig>Pass the ball</ex_orig>
+           </ex>
+           <iref href="https://foo/bar">More info here...</iref>
+         </def>
+    </ar> -->
+  </lexicon>
+</xdxf>

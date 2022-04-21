@@ -4,8 +4,12 @@ set -e
 
 source .env
 
-last_edited_date=$(date -r KLM/dict.xdxf '+%d-%m-%Y')
-last_edited_date_full=$(date -r KLM/dict.xdxf -u)
+( cd KLM ; ( cat head.xml ; cat parts/*xml ; cat foot.xml ) > dict.xdxf )
+
+last_edited_file=$(for f in $(find KLM -type f -not -name dict.xdxf) ; do echo $(stat -t %s -f %m $f) $f ; done | sort -nr | head -1 | cut -d' ' -f 2)
+echo "Using $last_edited_file modification date as last edited date"
+last_edited_date=$(date -r $last_edited_file '+%d-%m-%Y')
+last_edited_date_full=$(date -r $last_edited_file -u)
 VERSION=$(git describe --tags --dirty --long --match 'v[0-9]*' | sed 's/-/+/')
 
 echo "Building $VERSION with latest edited date: $last_edited_date_full"
@@ -20,7 +24,8 @@ rm -rf Dictionary
   --utf8-check \
   --verbosity 3 \
   --no-progress-bar \
-  --no-color
+  --no-color \
+  | grep -v "\[WARNING\] unknown tag categ"
 
 # Fixup
 cp -v Dictionary.plist Dictionary/Dictionary.plist
