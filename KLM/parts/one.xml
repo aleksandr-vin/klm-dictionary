@@ -821,9 +821,35 @@
     <ar><k>SPT</k><def><deftext>Standard Process Time</deftext> <iref href="https://confluence.devnet.klm.com/pages/viewpage.action?pageId=220104165">BL KPI Definitions</iref></def></ar>
     <ar><k>PAX</k><def><deftext>Short for Passangers</deftext></def></ar>
     <ar><k>ODS</k><def><deftext>Operations Decision Support</deftext></def></ar>
-    <ar><k>HCC</k><def><deftext>Hub Control Center</deftext> <iref href="https://myklm.klm.com/en/web/flight-ops/occ-hcc-organisatie"><kref>OCC</kref> &amp; HCC organisatie</iref></def></ar>
-    <ar><k>OCC</k><def><deftext>Operation Control Center</deftext> <iref href="https://myklm.klm.com/en/web/flight-ops/occ-hcc-organisatie">OCC &amp; <kref>HCC</kref> organisatie</iref></def></ar>
-    
+    <ar>
+      <k>HCC</k>
+      <def>
+        <deftext>
+          Hub Control Center
+          <def>
+            <deftext>
+              See also <kref>OCC</kref>
+              <iref href="https://myklm.klm.com/en/web/flight-ops/occ-hcc-organisatie">OCC &amp; HCC organisatie</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+    <ar>
+      <k>OCC</k>
+      <def>
+        <deftext>
+          Operation Control Center
+          <def>
+            <deftext>
+              See also <kref>HCC</kref>
+              <iref href="https://myklm.klm.com/en/web/flight-ops/occ-hcc-organisatie">OCC &amp; HCC organisatie</iref>
+            </deftext>
+          </def>
+        </deftext>
+      </def>
+    </ar>
+
     <ar>
       <k>TECC</k>
       <def>
