@@ -1,0 +1,154 @@
+#!/usr/bin/env bash
+#
+# KLM Dictionary cli
+#
+# https://github.com/aleksandr-vin/klm-dictionary
+#
+
+set -e
+
+CURL=${CURL-curl}
+GREP=${GREP-grep}
+BSDTAR=${BSDTAR-bsdtar}
+
+url=https://github.com/aleksandr-vin/klm-dictionary/releases/latest/download/KLM.dictionary.zip
+etag_file="$HOME/.klm-dictionary.etag"
+
+full_path="$( (cd $(dirname $(which $0)) ; pwd) )/$(basename $(which $0))"
+crontab_entry="0 * * * *     test -x \"$full_path\" && \"$full_path\" update  ## added by $0"
+
+
+function usage() {
+    cat <<EOF
+usage: klm-dictionary <command>
+
+KLM Dictionary commands:
+
+   update            Check for update and install new version of KLM dictionary
+   check             Check and print latest version of KLM dictionary
+   autoupdate        Setup autoupdate, 'klm-dictionary autoupdate help' for more
+
+EOF
+}
+
+
+function usage_autoupdate() {
+    cat <<EOF
+usage: klm-dictionary autoupdate <action>
+
+KLM Dictionary autoupdate actions:
+
+    enable           Install user's crontab to run `klm-dictionary update` at the beginning of every hour
+    disable          Remove related user's crontab entry
+    status           Show related user's crontab entry
+
+EOF
+}
+
+
+case "$KLM_DICTIONARY_AUTOUPDATE" in
+    add)
+        echo "$crontab_entry" >> "$1"
+        exit 0
+    ;;
+    remove)
+         ( ed "$1" >/dev/null || echo -n '' ) << END_OF_ED_COMMANDS
+g/\/klm-dictionary" update /d
+w
+q 
+END_OF_ED_COMMANDS
+        exit 0
+    ;;
+esac
+
+
+function update_klm_dict() {
+    ETAG=$($CURL -sSLI "${url?}" | $GREP -i '^etag: ' | tail -1)
+    if [[ "$ETAG" == "" ]]
+    then
+        echo "ETag not found in the reply"
+        exit 1
+    fi
+    if [[ -f "$etag_file" && "$(< $etag_file)" == "$ETAG" ]]
+    then
+        case "$1" in
+            install)
+                ;;
+            check)
+                echo "Latest release of KLM dictionary already installed."
+                ;;
+        esac
+    else
+        echo "New release of KLM dictionary found."
+        case "$1" in
+            install)
+                mkdir -p "$HOME/Library/Dictionaries"
+                $CURL -sSL "${url?}" | $BSDTAR -xf- -C "$HOME/Library/Dictionaries"
+                echo "$ETAG" > "$etag_file"
+                echo "And installed."
+                echo "See https://github.com/aleksandr-vin/klm-dictionary for more info."
+                ;;
+            check)
+                echo "'klm-dictionary update' to install."
+                ;;
+        esac
+    fi
+}
+
+
+function autoupdate_check() {
+    record="$(crontab -l | $GREP -v '^#' | $GREP '/klm-dictionary" update ' || echo -n '')"
+    if [[ "$record" == "" ]]
+    then
+        echo "Autoupdate not enabled."
+        return 1
+    else
+        echo "Autoupdate enabled."
+        return 0
+    fi
+}
+
+
+case "$1" in
+    update)
+        update_klm_dict install
+        ;;
+    check)
+        update_klm_dict check
+        ;;
+    autoupdate)
+        case "$2" in
+            enable)
+                if autoupdate_check >/dev/null
+                then
+                    echo "Already enabled"
+                    exit 0
+                fi
+                echo "Installing user's crontab entry."
+                PATH="$(dirname "$full_path"):$PATH" KLM_DICTIONARY_AUTOUPDATE=add EDITOR="$(basename $0)" crontab -e
+                autoupdate_check
+            ;;
+            disable)
+                if ! autoupdate_check >/dev/null
+                then
+                    echo "Not enabled"
+                    exit 0
+                fi
+                echo "Removing related user's crontab entry."
+                PATH="$(dirname "$full_path"):$PATH" KLM_DICTIONARY_AUTOUPDATE=remove EDITOR="$(basename $0)" crontab -e
+                autoupdate_check                
+            ;;
+            status)
+                autoupdate_check
+            ;;
+            *)
+                usage_autoupdate
+                exit 0
+                ;;
+        esac
+        ;;
+    *)
+        usage
+        exit 0
+        ;;
+esac
