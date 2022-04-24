@@ -7,7 +7,10 @@ In [Apple](https://support.apple.com/en-gu/guide/dictionary/welcome/mac) &
 
 ## Installation on macOs
 
-Copy'n'paste this 2 lines in Terminal.app:
+If you have [brew](http://brew.sh), you can install it with
+`brew install aleksandr-vin/taps/klm-dictionary && klm-dictionary update` in Terminal.app.
+
+Or you can do unattended install, as easy as a copy'n'paste of this 2 lines in Terminal.app:
 
 ```sh
 mkdir -p "$HOME/Library/Dictionaries"
@@ -28,7 +31,9 @@ Or do the same steps manually:
 2. You can _Look Up_ words from any place: force-push the word or control-click selected text. Then, in the contextual
    menu that appears, choose Look Up.
 3. If you want to add or change a record in this dictionary, please do make a Pull Request or crate an Issue or send me a message!
-4. [Setup automatic updates](https://github.com/aleksandr-vin/klm-dictionary/wiki/Getting-automatic-updates).
+4. Setup automatic updates with `klm-dictionary autoupdate enable` in Terminal.app
+   (need to have [brew](http://brew.sh) and install `brew install aleksandr-vin/taps/klm-dictionary`).
+   You can check [old way of automatic updates setup](https://github.com/aleksandr-vin/klm-dictionary/wiki/Getting-automatic-updates).
 
 
 ## Development
