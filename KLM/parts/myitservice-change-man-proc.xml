@@ -1,0 +1,25 @@
+
+    <!-- From MyITService -->
+    <ar>
+      <k id="MyITService_change_management_process_1">Change management process</k>
+      <def>
+        <deftext>
+          Change management process
+          <iref href="https://afkl.sharepoint.com/teams/AFKL-ITIL-ProcMgt/_layouts/15/download.aspx?SourceUrl=%2Fteams%2FAFKL%2DITIL%2DProcMgt%2FChange%20Management%20Process%20Guide%2FMyITService%2FApplicable%2FITC%2DPROC%2DAFKL%20CHG%20Process%20Guide%2Epdf">AFKL Change ManagementProcess Guide</iref>
+        </deftext>
+      </def>
+    </ar>
+
+    <ar><k>DMI</k><def><deftext>KL Duty Manager of IT <categ>(<kref idref="MyITService_change_management_process_1">Change management process</kref>)</categ></deftext></def></ar>
+    <ar><k>CdQ</k><def><deftext>AF Chef de Quart <categ>(<kref idref="MyITService_change_management_process_1">Change management process</kref>)</categ></deftext></def></ar>
+    <ar><k>ECAB</k><def><deftext>Emergency Change Advisory Board <categ>(<kref idref="MyITService_change_management_process_1">Change management process</kref>)</categ></deftext></def></ar>
+    <ar><k>RACI</k><def><deftext>R=Responsible A=Accountable C=Consulted I=Informed <categ>(<kref idref="MyITService_change_management_process_1">Change management process</kref>)</categ></deftext></def></ar>
+    <ar>
+      <k>CTASK</k>
+      <def>
+        <deftext>
+          Change Task <categ>(<kref idref="MyITService_change_management_process_1">Change management process</kref>)</categ>
+          is referred by a number starting with CTASK and followed by 7 digits (CTASKxxxxxxx)
+        </deftext>
+      </def>
+    </ar>
